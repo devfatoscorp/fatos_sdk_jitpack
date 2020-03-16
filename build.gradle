@@ -11,6 +11,12 @@ buildscript{
     }
 }
 
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
 apply plugin: 'com.android.library'
 
 android {
@@ -35,11 +41,10 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
@@ -47,12 +52,14 @@ dependencies {
         google()
         jcenter()
     }
+
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'androidx.appcompat:appcompat:1.1.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation files('libs/fatos_sdk.jar')
+    implementation name: 'fatos-android-sdk', ext: 'aar'
+//    implementation files('libs/fatos_sdk.jar')
 }
 
 apply plugin: 'com.github.dcendents.android-maven'
