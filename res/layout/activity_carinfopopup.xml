@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent">
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:alpha="0.6">
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/autoComplete_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="@dimen/main_setting_carinfo_height"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/titlebar_color">
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/titlebar_color"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            >
+            <TextView
+                android:id="@+id/poi_search_text_view"
+                android:text="@string/string_vehicleinfo"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize = "18dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <Button
+                android:id="@+id/setting_search_btn_cancel"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/amap_cancel_btn"
+                />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        <View
+            android:id="@+id/disable_underline_poisort2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/hlinecolor_tab_disable"
+            />
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/titlebar_color"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            >
+            <ImageView
+                android:scaleType="centerInside"
+                android:src = "@drawable/icon_car"
+                android:layout_gravity="center_vertical|left"
+                android:gravity="center_horizontal|center"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/txt_vehicletype"
+                android:layout_marginLeft="10dp"
+                android:text="@string/string_vehicletype"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize = "15dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/carinfo0"
+                android:text="@string/string_compact"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize = "15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/evsearch_normal_btn"
+                />
+            <Button
+                android:id="@+id/carinfo1"
+                android:text="@string/string_standard"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize = "15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/evsearch_normal_btn"
+                />
+            <Button
+                android:id="@+id/carinfo2"
+                android:text="@string/string_midvan"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize = "15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/evsearch_normal_btn"
+                />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/carinfo3"
+                android:text="@string/string_lvan"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize = "15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/evsearch_normal_btn"
+                />
+            <Button
+                android:id="@+id/carinfo4"
+                android:text="@string/string_truck"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize = "15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/evsearch_normal_btn"
+                />
+            <Button
+                android:id="@+id/carinfo5"
+                android:text="@string/string_spurpose"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize = "15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/evsearch_normal_btn"
+                />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/titlebar_color"
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            >
+            <ImageView
+                android:scaleType="centerInside"
+                android:src = "@drawable/icon_oil"
+                android:layout_gravity="center_vertical|left"
+                android:gravity="center_horizontal|center"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <TextView
+                android:id="@+id/txt_gastype"
+                android:layout_marginLeft="10dp"
+                android:text="@string/string_gastype"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize = "15dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/oilinfo0"
+                android:text="@string/string_gasoline"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize = "15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/evsearch_normal_btn"
+                />
+            <Button
+                android:id="@+id/oilinfo1"
+                android:text="@string/string_premium"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize = "15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/evsearch_normal_btn"
+                />
+            <Button
+                android:id="@+id/oilinfo2"
+                android:text="@string/string_diesel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize = "15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/evsearch_normal_btn"
+                />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:paddingLeft="11dp"
+            android:paddingRight="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/oilinfo3"
+                android:text="@string/string_lpg"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize = "15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/evsearch_normal_btn"
+                />
+            <Button
+                android:id="@+id/oilinfo4"
+                android:text="@string/string_electricity"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize = "15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/evsearch_normal_btn"
+                />
+            <Button
+                android:id="@+id/oilinfo5"
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:textSize = "15dp"
+                android:textColor="@color/white"
+                android:background="@drawable/evsearch_normal_btn"
+                />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+

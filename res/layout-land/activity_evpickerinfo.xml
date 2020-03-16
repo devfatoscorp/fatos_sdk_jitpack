@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                  xmlns:tools="http://schemas.android.com/tools"
+                                                  android:layout_width="fill_parent"
+                                                  android:layout_height="fill_parent"
+                                                  android:background="@color/transparent"
+                                                  tools:ignore="MissingDefaultResource">
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ev_back_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:alpha="0.0">
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:orientation="vertical">
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/autoComplete_layout"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/popup_ev_title_bg"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/poi_search_text_view"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="17dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_weight="1"
+                        android:ellipsize="marquee"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:singleLine="true"
+                        android:text="@string/string_vehicleinfo"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="#f2d9aa"
+                        android:textSize="19dp" />
+
+                    <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+                        android:id="@+id/layout_close"
+                        android:layout_width="32dp"
+                        android:layout_height="44dp"
+                        android:layout_alignParentRight="true"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/setting_search_btn_cancel"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:background="@drawable/btn_icon_popup_close" />
+                    </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+                </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+                <View
+                    android:id="@+id/disable_underline_poisort2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#e8ebed" />
+
+                <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/popup_ev_bg"
+                    android:orientation="vertical"
+                    android:paddingBottom="29dp"
+                    android:paddingEnd="12dp"
+                    android:paddingStart="12dp"
+                    android:paddingTop="15dp">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        app:srcCompat="@drawable/popup_ev_icon_impossible" />
+
+                    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="22dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center_vertical|left"
+                                android:gravity="center_horizontal|center"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/popup_ev_icon_charge" />
+
+                            <TextView
+                                android:id="@+id/txt_vehicletype4"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:ellipsize="marquee"
+                                android:gravity="center_vertical"
+                                android:singleLine="true"
+                                android:text="@string/string_vehicletype"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/popup_contents_textsize2" />
+
+                        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+                        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center_vertical|left"
+                                android:gravity="center_horizontal|center"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/popup_ev_icon_speed" />
+
+                            <TextView
+                                android:id="@+id/txt_vehicletype"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:ellipsize="marquee"
+                                android:gravity="center_vertical"
+                                android:singleLine="true"
+                                android:text="@string/string_vehicletype"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/popup_contents_textsize2" />
+                        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+                        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center_vertical|left"
+                                android:gravity="center_horizontal|center"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/popup_ev_icon_type" />
+
+                            <TextView
+                                android:id="@+id/txt_vehicletype3"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:ellipsize="marquee"
+                                android:gravity="center_vertical"
+                                android:singleLine="true"
+                                android:text="@string/string_vehicletype"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/popup_contents_textsize2" />
+                        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+                        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="horizontal"
+                            android:paddingLeft="11dp"
+                            android:paddingRight="11dp"
+                            android:visibility="gone">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_gravity="center_vertical|left"
+                                android:gravity="center_horizontal|center"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/icon_ev_2" />
+
+                            <TextView
+                                android:id="@+id/txt_vehicletype2"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="8dp"
+                                android:layout_weight="1"
+                                android:ellipsize="marquee"
+                                android:gravity="center_vertical"
+                                android:singleLine="true"
+                                android:text="@string/string_vehicletype"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textColor="@color/white"
+                                android:textSize="17dp" />
+                        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+                    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_route_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_centerInParent="true"
+                        android:layout_weight="6"
+                        android:background="@drawable/popup_ev_btn"
+                        android:drawableLeft="@drawable/m_button_icon_guide"
+                        android:drawablePadding="3dp"
+                        android:duplicateParentState="true"
+                        android:gravity="center"
+                        android:paddingLeft="60dp"
+                        android:paddingRight="60dp"
+                        android:text="@string/string_routing"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/popup_btn_textsize2" />
+
+                    <ImageButton
+                        android:id="@+id/btn_favorite_add"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_weight="2"
+                        android:background="@color/submap_button_color"
+                        android:drawablePadding="3dp"
+                        android:duplicateParentState="true"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:src="@drawable/btn_icon_bookmark"
+                        android:text="@string/string_add"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+</biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+

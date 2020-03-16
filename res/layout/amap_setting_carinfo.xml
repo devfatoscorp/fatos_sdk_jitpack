@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/titlebar_color"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center_vertical|center_horizontal"
+    android:alpha="0.88"
+    android:orientation="vertical">
+
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "23dp"
+            android:textColor="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="차종" />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/carinfo0"
+            android:text="경차"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+        <Button
+            android:id="@+id/carinfo1"
+            android:text="승용차"
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+        <Button
+            android:id="@+id/carinfo2"
+            android:text="중형승합차"
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/carinfo3"
+            android:text="대형승합차"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+        <Button
+            android:id="@+id/carinfo4"
+            android:text="대형화물차"
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+        <Button
+            android:id="@+id/carinfo5"
+            android:text="특수화물차"
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "23dp"
+            android:textColor="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="유종" />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/oilinfo0"
+            android:text="휘발유"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+        <Button
+            android:id="@+id/oilinfo1"
+            android:text="고급휘발유"
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+        <Button
+            android:id="@+id/oilinfo2"
+            android:text="경유"
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/oilinfo3"
+            android:text="LPG"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+        <Button
+            android:id="@+id/oilinfo4"
+            android:text="전기"
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+        <Button
+            android:id="@+id/oilinfo5"
+            android:text=""
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@color/bckg"
+            />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/btn_close"
+        android:text="닫기"
+        android:layout_width="108dp"
+        android:layout_height="40dp"
+        android:textSize = "20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/popup_round"
+        />
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>

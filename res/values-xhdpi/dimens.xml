@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">56dp</dimen>
+    <dimen name="activity_vertical_margin">56dp</dimen>
+
+    <dimen name="mainmenu_clocktime_txtsize">60dp</dimen>
+    <dimen name="mainmenu_ampm_txtsize">15dp</dimen>
+    <dimen name="mainmenu_clocktime_paddingleft">15dp</dimen>
+
+    <dimen name="drive_address_textsize">21dp</dimen>
+
+    <dimen name="drive_dirinfo_textsize">18dp</dimen>
+
+    <dimen name="drive_andolayout_height">75dp</dimen>
+    <dimen name="drive_andolayout_tbt_height">75dp</dimen>
+    <dimen name="drive_andolayout_speed_height">90dp</dimen>
+
+    <dimen name="stl_setting_textsize">19dp</dimen>
+</resources>

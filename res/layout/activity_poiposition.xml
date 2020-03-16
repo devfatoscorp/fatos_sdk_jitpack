@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recent_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/background_material_light"
+    >
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/titlebar_color"
+        >
+
+
+        <Button
+            android:id="@+id/recent_search_back_btn"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/amap_back_btn"
+            />
+
+        <TextView
+            android:id="@+id/recent_search_text_view"
+            android:text="Location info"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize = "24dp"
+            android:layout_height="56dp"
+            android:paddingLeft="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/amap_menu_setting_btn"
+            />
+        <Button
+            android:id="@+id/recent_home_cancel"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/amap_cancel_btn"
+            />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="5"
+        android:background="@color/titlebar_color"
+        >
+        <TextView
+            android:id="@+id/subtitle_txt"
+            android:text="주식회사 파토스"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:textSize = "24dp"
+            android:paddingLeft="20dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:background="@color/titlebar_color">
+            <fragment
+                android:name="biz.fatossdk.nativeMap.FatosPortMapMoveFragment"
+                android:id="@+id/map_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/img_map_center"
+                android:src="@drawable/img_mapcenter"
+                android:scaleType="centerInside"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+        <Button
+            android:id="@+id/poi_detail_route_btn"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Route"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>

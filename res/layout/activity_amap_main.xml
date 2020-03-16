@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/amap_main_layout">
+
+    <fragment
+        android:name="biz.fatossdk.nativeMap.FatosMainMapFragment"
+        android:id="@+id/map_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/img_map_center"
+        android:src="@drawable/img_mapcenter"
+        android:scaleType="centerInside"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:weightSum="7"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_gravity="bottom">-->
+    <!--<Button-->
+    <!--android:id="@+id/firsttouchbtn"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="First Touch" />-->
+    <!--<Button-->
+    <!--android:id="@+id/hidefirstfragmentbtn"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:text="Hide" />-->
+    <!--<Button-->
+    <!--android:id="@+id/new_simul_btn"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="2"-->
+    <!--android:text="Simulation Start" />-->
+    <!--</LinearLayout>-->
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>

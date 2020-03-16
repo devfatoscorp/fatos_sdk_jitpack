@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/poiname"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="left"
+            android:singleLine="true"
+            android:maxLength="@integer/list_max_length"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+        />
+
+        <TextView
+            android:id="@+id/addressname"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@id/poiname"
+            android:gravity="left"
+            android:singleLine="true"
+            android:textColor="@color/FatosLightGray"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_poi_detail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/img_leftright"
+            android:background = "@drawable/detail_2_16_3"
+            />
+
+        <ImageView
+            android:id="@+id/img_leftright"
+            android:layout_marginTop="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignRight = "@+id/poiname"
+            android:src = "@drawable/btn_back_left"
+            />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>
+
+
+
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>

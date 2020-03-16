@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="730dp"
+              android:layout_height="wrap_content">
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/shape_round_rectangle_darkgrey_popup"
+            android:layout_margin="20dp">
+            <TextView
+                android:id="@+id/textView_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="title"
+                android:textSize="23dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/tmsdg_trpt_body_left_textcolor"/>
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:id="@+id/textView_Content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="20dp"
+                    android:textSize="17dp"
+                    android:textColor="@color/white"
+                    android:paddingBottom="5dp"/>
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+</biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>

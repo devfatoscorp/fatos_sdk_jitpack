@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_simulcancel"
+        android:showAsAction="ifRoom|withText"
+        android:title="Simulation Cancel"
+        android:visible="true"
+        tools:ignore="AppCompatResource" />
+<!--     <item
+        android:id="@+id/item_simulpause"
+        android:showAsAction="ifRoom|withText"
+        android:title="Simulation Pause"
+        android:visible="true"/> -->
+<!--     <item
+        android:id="@+id/item_simulstart"
+        android:showAsAction="ifRoom|withText"
+        android:title="Simulation Start"
+        android:visible="true"/>     -->
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="color_swatch_large">64dip</dimen>
+    <dimen name="color_swatch_small">48dip</dimen>
+    <dimen name="color_swatch_margins_large">8dip</dimen>
+    <dimen name="color_swatch_margins_small">4dip</dimen>
+
+    <dimen name="spot_size">6dp</dimen>
+    <dimen name="title_margin">10dp</dimen>
+    <dimen name="progress_margin">24dp</dimen>
+    <dimen name="progress_width">250dp</dimen>
+
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="auto_alert_width">340dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="stl_setting_textsize">50dp</dimen>
+
+    <dimen name="swipemenulistviewActivity_horizontal_margin">16dp</dimen>
+    <dimen name="swipemenulistviewActivity_vertical_margin">16dp</dimen>
+
+    <dimen name="fmp_text_recentinput">23sp</dimen>
+
+    <dimen name="drive_sdk_mapmode_width_height">48dp</dimen>
+    <dimen name="drive_sdk_mapmode_land_width_height">40dp</dimen>
+    <dimen name="drive_sdk_button_width_height">41dp</dimen>
+
+    <dimen name="popup_contents_textsize2">11sp</dimen>
+    <dimen name="popup_btn_textsize2">13sp</dimen>
+
+    <dimen name="drive_zoom_level_height">25dp</dimen>
+
+
+    <!-- lanevivew에서 사용하는 dimention -->
+    <dimen name="view_lane_img_param_width">35dp</dimen>
+    <dimen name="view_lane_img_param_height">36dp</dimen>
+    <dimen name="view_lane_framelayout_margin_bottom">50dp</dimen>
+    <dimen name="view_lane_framelayout_margin_right">170dp</dimen>
+    <dimen name="view_lane_layout_height">40dp</dimen>
+    <dimen name="view_lane_img_height">68dp</dimen>
+    <dimen name="view_lane_far_area_height">43dp</dimen>
+    <dimen name="view_lane_far_area_margin_bottom">2dp</dimen>
+    <dimen name="view_lane_far_area_text_size">19dp</dimen>
+
+    <dimen name="tmsdg_dialog_width">698dp</dimen>
+    <dimen name="tmsdg_dialog_height">0dp</dimen>
+
+    <integer name="check_resolution">6</integer>
+</resources>

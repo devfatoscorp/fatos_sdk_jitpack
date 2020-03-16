@@ -1,0 +1,90 @@
+<biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                     xmlns:tools="http://schemas.android.com/tools"
+                                                     android:layout_width="match_parent"
+                                                     android:layout_height="match_parent"
+                                                     android:background="@drawable/consent_bg_w1240"
+                                                     tools:ignore="MissingDefaultResource">
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            >
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtTitleagree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/init_title"
+                android:textColor="#27fcff"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:background ="@drawable/consent_icon"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/init_text"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textSize="21sp" />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@color/titlebar_color"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pos_cancel_btn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="43dp"
+                android:background="@color/btnbg"
+                android:gravity="center"
+                android:text="@string/string_no"
+                android:textSize="15sp"
+                android:textColor="@color/white" />
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="43dp"
+                android:id="@+id/pos_ok_btn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/posagreeyesback"
+                android:gravity="center"
+                android:text="@string/string_yes"
+                android:textSize="15sp"
+                android:textColor="@color/white" />
+
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+    </biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>
+</biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>

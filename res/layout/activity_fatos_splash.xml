@@ -1,0 +1,24 @@
+<biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/titlebar_color">
+
+
+    <ImageView
+        android:id="@+id/img_tbt_ando"
+        android:scaleType="centerInside"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+
+    <!--<ImageView-->
+        <!--android:layout_gravity="center_horizontal|center_vertical"-->
+        <!--android:src="@drawable/ic_launcher"-->
+        <!--android:id="@+id/fatoslogo"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"/>-->
+</biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>

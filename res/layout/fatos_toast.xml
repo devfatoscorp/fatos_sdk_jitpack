@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_margin="5px"
+    android:padding="10dp"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/layout_fatos_icon">
+    
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fatos_toast_border">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp" 
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/text_fatos_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="16dp" 
+            android:layout_gravity="center_vertical"/>
+        
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>

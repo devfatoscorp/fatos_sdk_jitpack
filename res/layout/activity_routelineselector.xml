@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent">
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        android:alpha="0.6">
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/autoComplete_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="@dimen/main_setting_carinfo_height"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@color/titlebar_color">
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/titlebar_color"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            >
+            <TextView
+                android:id="@+id/poi_search_text_view"
+                android:text="@string/color_picker_default_title"
+                android:textColor="@color/white"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textSize = "18dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <Button
+                android:id="@+id/setting_search_btn_cancel"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/amap_cancel_btn"
+                />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        <View
+            android:id="@+id/disable_underline_poisort2"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/hlinecolor_tab_disable"
+            />
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="45dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id ="@+id/color_button_0"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/roundedbutton_1"
+                />
+            <Button
+                android:layout_marginLeft="25dp"
+                android:id ="@+id/color_button_1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/roundedbutton_2"
+                />
+            <Button
+                android:layout_marginLeft="25dp"
+                android:id ="@+id/color_button_2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/roundedbutton_3"
+                />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="45dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id ="@+id/color_button_3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/roundedbutton_4"
+                />
+            <Button
+                android:layout_marginLeft="25dp"
+                android:id ="@+id/color_button_4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/roundedbutton_5"
+                />
+            <Button
+                android:layout_marginLeft="25dp"
+                android:id ="@+id/color_button_5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/roundedbutton_6"
+                />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="45dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id ="@+id/color_button_6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/roundedbutton_7"
+                />
+            <Button
+                android:layout_marginLeft="25dp"
+                android:id ="@+id/color_button_7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/roundedbutton_8"
+                />
+            <Button
+                android:layout_marginLeft="25dp"
+                android:id ="@+id/color_button_8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/roundedbutton_9"
+                />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+

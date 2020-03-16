@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+		android:id="@+id/laneImgArea"
+		android:layout_width="wrap_content"
+		android:layout_height="@dimen/view_lane_layout_height"
+		android:layout_alignTop="@+id/fatText"
+		android:layout_gravity="center_horizontal"
+		android:alpha="0.8"
+		android:background="@color/fmp_laneview"
+		android:orientation="horizontal"
+		android:paddingBottom="4dp"
+		android:paddingLeft="8dp" />
+
+	<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+		android:id="@+id/layout_laneText"
+		android:layout_width="wrap_content"
+		android:layout_height="@dimen/view_lane_layout_height"
+		android:layout_marginRight="4dp"
+		android:layout_toRightOf="@+id/laneImgArea"
+		android:alpha="0.8"
+		android:background="@color/fmp_laneview">
+
+		<TextView
+			android:id="@+id/fatText"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_marginBottom="@dimen/view_lane_far_area_margin_bottom"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="8dp"
+			android:gravity="center_vertical"
+			android:textColor="@color/fmp_lanedist"
+			android:textSize="@dimen/view_lane_far_area_text_size" />
+	</biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+</merge>

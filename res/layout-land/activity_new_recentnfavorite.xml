@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:layout_height="470dp"-->
+<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:orientation="vertical"
+                                                   android:layout_width="fill_parent"
+                                                   android:layout_height="fill_parent"
+                                                   android:background="@color/titlebar_color"
+                                                   android:id="@+id/layout_recentnfavorite"
+                                                   android:clickable="true"
+                                                   android:focusable="true"
+                                                   android:focusableInTouchMode="true"
+                                                   android:layout_marginBottom="40dp"
+                                                   android:alpha="0.88"
+                                                   tools:ignore="MissingDefaultResource">
+    <!--android:background="@drawable/layout_recentnfavorite_round"-->
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/titlebar_color"
+        >
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@color/titlebar_color"
+            android:layout_height="40dp">
+            >
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/btn_temp"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:textColor="@color/GreenYellow"
+                android:textSize="50dp"
+                />
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:id="@+id/ll_time"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_vertical|center_horizontal" >
+
+                <!--<TextClock-->
+                <!--android:id="@+id/textClock"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:format12Hour="hh:mm"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="@dimen/mainmenu_clocktime_txtsize"-->
+                <!--android:textStyle="bold"-->
+                <!--android:timeZone="GMT+900"-->
+                <!--android:paddingTop="8dp"-->
+                <!--android:gravity="center_vertical|center_horizontal"/>-->
+
+                <!--<TextClock-->
+                <!--android:id="@+id/textClockampm"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:format12Hour="a"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="@dimen/mainmenu_ampm_txtsize"-->
+                <!--android:textStyle="bold"-->
+                <!--android:timeZone="GMT+900"-->
+                <!--android:paddingTop="8dp"-->
+                <!--android:gravity="center_vertical|center_horizontal"/>-->
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_gravity="center_vertical"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/btn_2_16_4"
+                />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/titlebar_color">
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:background="@color/titlebar_color">
+
+                <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/titlebar_color"
+                    >
+                    <TextView
+                        android:text="자주 가는 곳"
+                        android:id="@+id/titile_recent"
+                        android:textColor="@color/PopupGreen"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:textSize = "25dp"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="20dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"/>
+                    <!--<ImageView-->
+                    <!--android:id="@+id/img_left2"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_width="25dp"-->
+                    <!--android:layout_height="25dp"-->
+                    <!--android:layout_gravity="center_vertical|right"-->
+                    <!--android:src = "@drawable/btn_back_left"-->
+                    <!--/>-->
+                </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+                <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:paddingLeft="20dp"
+                    android:background="@color/titlebar_color"
+                    >
+                    <TextView
+                        android:id="@+id/recent_part1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:textSize="@dimen/recent_favorite_popup_font"  >
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/recent_part2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:textSize="@dimen/recent_favorite_popup_font"  >
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/recent_part3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:textSize="@dimen/recent_favorite_popup_font"  >
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/recent_part4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/recent_favorite_popup_font_allview" >
+                    </TextView>
+                </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="match_parent"
+                android:background="@color/titlebar_color">
+                <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                    android:id="@+id/layout_mainmenu_navititle"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/titlebar_color"
+                    >
+                    <TextView
+                        android:text="즐겨찾기"
+                        android:id="@+id/titile_favorite"
+                        android:textColor="@color/PopupGreen"
+                        android:gravity="center_vertical"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textSize = "25dp"
+                        android:layout_height="40dp"
+                        android:paddingLeft="20dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+                    <!--<ImageView-->
+                    <!--android:id="@+id/img_left"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_width="25dp"-->
+                    <!--android:layout_height="25dp"-->
+                    <!--android:layout_gravity="center_vertical|right"-->
+                    <!--android:src = "@drawable/btn_back_left"-->
+                    <!--/>-->
+                </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+
+                <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:paddingLeft="20dp"
+                    android:background="@color/titlebar_color"
+                    >
+                    <TextView
+                        android:id="@+id/favorite_part1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:textSize="@dimen/recent_favorite_popup_font"  >
+                    </TextView>
+                    <TextView
+                        android:id="@+id/favorite_part2"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:textSize="@dimen/recent_favorite_popup_font"  >
+                    </TextView>
+                    <TextView
+                        android:id="@+id/favorite_part3"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        android:textSize="@dimen/recent_favorite_popup_font"  >
+                    </TextView>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/favorite_part4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/recent_favorite_popup_font_allview">
+                    </TextView>
+                </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+

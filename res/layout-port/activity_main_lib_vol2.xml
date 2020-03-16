@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                     xmlns:tools="http://schemas.android.com/tools"
+                                                     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/autosplashcolor"
+                                                     tools:ignore="MissingDefaultResource">
+    <biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout
+        android:id="@+id/rfParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+            android:id="@+id/flCentral"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_gravity="center_horizontal|center_vertical">
+            <ImageView
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:id="@+id/imgLogo_forauto"
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                />
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+                <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent">
+
+                </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+                <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="60"
+                    android:layout_height="match_parent"
+                    android:weightSum="100"
+                    >
+                    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="15"
+                        >
+                    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+                    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="85"
+                        >
+                        <ImageView
+                            android:id="@+id/imgLogo"
+                            android:visibility="gone"
+                            android:scaleType="centerInside"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            />
+                    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+
+                </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+                <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="match_parent">
+
+                </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+
+        </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+    </biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>
+

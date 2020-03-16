@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/popup_bg">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/custom_image"-->
+        <!--android:layout_width="53dp"-->
+        <!--android:layout_height="53dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:contentDescription="@string/app_name"-->
+        <!--android:visibility="gone"-->
+        <!--android:scaleType="fitCenter" />-->
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+        android:id="@+id/error_frame"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/error_circle" />
+
+        <ImageView
+            android:id="@+id/error_x"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/error_center_x"
+            android:scaleType="center" />
+
+    </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+        android:id="@+id/success_frame"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/success_bow" />
+
+        <View
+            android:id="@+id/mask_right"
+            android:layout_width="35dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="-13dp"
+            android:layout_gravity="right"
+            android:background="@android:color/white" />
+
+        <View
+            android:id="@+id/mask_left"
+            android:layout_width="21dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="-3dp"
+            android:layout_gravity="left"
+            android:background="@android:color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/success_circle" />
+
+        <biz.fatossdk.exlib.SweetAlert.SuccessTickView
+            android:id="@+id/success_tick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+        android:id="@+id/warning_frame"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:visibility="gone">
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:orientation="vertical">
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout
+                android:layout_marginLeft="46dp"
+                android:layout_marginRight="46dp"
+                android:layout_width="match_parent"
+                android:layout_height="97dp">
+                <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/title_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/popup_title_textsize"
+                        android:textColor="#f2d9aa"
+                        android:layout_marginTop="10dp"
+                        android:singleLine="true"
+                        android:textStyle="bold"
+                        android:text="" />
+
+                </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:alpha="0.1"
+                    android:gravity="center|center_vertical"
+                    android:layout_gravity="center|center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ffffff"
+                    />
+            </biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>
+
+
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@drawable/warning_circle" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/popup_img"-->
+            <!--android:layout_width="58dp"-->
+            <!--android:layout_height="66dp"-->
+            <!--android:contentDescription="@string/app_name"-->
+            <!--android:src="@drawable/icon_popup_route"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:scaleType="centerCrop" />-->
+    </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+
+    <TextView
+        android:id="@+id/content_text"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/popup_contents_textsize"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:visibility="gone" />
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/popup_btn_marginleft"
+            android:layout_marginRight="@dimen/popup_btn_marginright"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/popup_btn_layout_height"
+            android:gravity="center">
+            <!--android:layout_marginBottom="30dp"-->
+            <!--android:layout_marginBottom="@dimen/popup_btn_marginbottom"-->
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="@dimen/popup_btn_layout_width"
+                android:layout_height="match_parent"
+                android:background="@drawable/popup_button_left_nor"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/popup_btn_textsize"
+                android:text="@string/dialog_cancel" />
+
+            <LinearLayout
+                android:id="@+id/confirm_button"
+                android:layout_width="@dimen/popup_btn_layout_width"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:background="@drawable/popup_button_right_nor"
+                android:visibility="visible"
+                android:gravity="center">
+                <!--<View-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"/>-->
+                <TextView
+                    android:id="@+id/confirm_text"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:textSize="@dimen/popup_btn_textsize"
+                    android:text="@string/dialog_ok" />
+
+                <FrameLayout
+                    android:id="@+id/fl_progress"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:visibility="gone"
+                    android:background="@mipmap/m_button_highlight_count01">
+                    <TextView
+                        android:id="@+id/m_txtCounter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1"
+                        android:gravity="center"
+                        android:textSize="@dimen/popup_btn_textsize"
+                        android:textColor="@color/white"/>
+                </FrameLayout>
+
+            </LinearLayout>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>
+
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>

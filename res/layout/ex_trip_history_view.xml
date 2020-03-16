@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+        android:id="@+id/view_expandable_headerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+            <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+                android:layout_alignParentLeft="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+                    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/txt_tripdate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:paddingLeft="10dp"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:maxLength="@integer/list_max_length"
+                            android:ellipsize="end"
+                            android:textColor="@color/white"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:text = "2016년 12월 3일"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt_triptime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:paddingLeft="10dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:textColor="@color/FatosLightGray"
+                            android:maxLength="@integer/list_max_length"
+                            android:text = "09:33 am ~ 06:23 pm"
+                            android:textSize="15sp"/>
+                    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+                    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+                        <ImageButton
+                            android:layout_marginLeft="10dp"
+                            android:scaleType="centerInside"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:id="@+id/trip_pin_start"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:background="@drawable/trip_start"/>
+                        <TextView
+                            android:id="@+id/txt_startpos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:paddingLeft="8dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:textColor="@color/FatosLightGray"
+                            android:maxLength="@integer/list_max_length"
+                            android:text = "09:33 am ~ 06:23 pm"
+                            android:textSize="15sp"/>
+                    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+                    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+                        <ImageButton
+                            android:scaleType="centerInside"
+                            android:layout_marginLeft="10dp"
+                            android:id="@+id/trip_pin_goal"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:background="@drawable/trip_goal"/>
+                        <TextView
+                            android:id="@+id/txt_goalpos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:paddingLeft="8dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:textColor="@color/FatosLightGray"
+                            android:maxLength="@integer/list_max_length"
+                            android:text = "09:33 am ~ 06:23 pm"
+                            android:textSize="15sp"/>
+                    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+                </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+            </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+                android:id="@+id/layout_poi_detail"
+                android:background="@color/titlebar_color"
+                android:layout_alignParentRight="true"
+                android:layout_width="37dp"
+                android:layout_height="75dp">
+                <ImageView
+                    android:id="@+id/img_poi_detail"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:background = "@drawable/list_icon_map_n"
+                    />
+            </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+        </biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:id="@+id/layout_tripinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/submap_back_color"
+        android:layout_below="@+id/view_expandable_headerlayout"
+        android:orientation="horizontal">
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="45dp">
+            <ImageView
+                android:id="@+id/img_trip_route1"
+                android:src="@drawable/trip_icon_route1"
+                android:scaleType="centerInside"
+                android:gravity="center_vertical|right"
+                android:layout_gravity="center_vertical|right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txt_real_route"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:layout_marginLeft="3dp"
+                android:text="@string/string_triptime_realroute"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/txtroute1"
+                android:textSize="@dimen/trip_middle_title_textsize" />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_real_route_totaldist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:text="143.7km"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/trip_middle_contents_textsize" />
+
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_real_route_totaltime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|right"
+                    android:text="5시간 1분"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/trip_middle_contents_textsize" />
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="fill_parent"
+            android:background="@color/hlinecolor"
+            />
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="45dp">
+            <ImageView
+                android:id="@+id/img_trip_route2"
+                android:src="@drawable/trip_icon_route2"
+                android:scaleType="centerInside"
+                android:gravity="center_vertical|right"
+                android:layout_gravity="center_vertical|right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/txt_first_route"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:layout_marginLeft="3dp"
+                android:text="@string/string_triptime_firstroute"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/txtroute2"
+                android:textSize="@dimen/trip_middle_title_textsize" />
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_first_route_totaldist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right"
+                    android:text="143.7km"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/trip_middle_contents_textsize" />
+
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_first_route_totaltime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical|right"
+                    android:text="5시간 1분"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/trip_middle_contents_textsize" />
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+        android:id="@+id/view_expandable_contentLayout"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/drive_tripinfo_submap_width_height"
+        android:background="@color/submap_back_color"
+        android:layout_below="@+id/layout_tripinfo">
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="6"
+            android:background="@color/submap_back_color"
+            >
+            <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/view_expandable_subMapLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/drive_tripinfo_submap_width_height"
+                android:background="@color/submap_back_color">
+                <!--<biz.fatos.nativeMap.FatosListMapView-->
+                    <!--android:name="biz.fatos.nativeMap.FatosListMapView"-->
+                    <!--android:background="@color/titlebar_color"-->
+                    <!--android:id="@+id/map_fragment"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="@dimen/drive_poiindo_submap_width_height" />-->
+            </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_extend_map_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="right" >
+            <ImageButton
+                android:layout_gravity="right"
+                android:id="@+id/imgbtn_extend_map"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background = "@drawable/icon_map_zoom"
+                />
+        </LinearLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>

@@ -1,0 +1,187 @@
+<resources>
+
+    <!--
+         Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels.
+    -->
+	<declare-styleable name="SwipemenulistviewExpandableLayout">
+		<attr name="swipemenulistviewEl_headerLayout" format="reference"/>
+		<attr name="swipemenulistviewEl_contentLayout" format="reference" />
+		<attr name="swipemenulistviewEl_duration" format="integer" />
+	</declare-styleable>
+	<declare-styleable name="stl_SmartTabLayout">
+		<attr name="stl_indicatorAlwaysInCenter" format="boolean"/>
+		<attr name="stl_indicatorWithoutPadding" format="boolean"/>
+		<attr name="stl_indicatorInFront" format="boolean"/>
+		<attr name="stl_indicatorInterpolation" format="enum">
+			<enum name="smart" value="0"/>
+			<enum name="linear" value="1"/>
+		</attr>
+		<attr name="stl_indicatorGravity" format="enum">
+			<enum name="bottom" value="0"/>
+			<enum name="top" value="1"/>
+			<enum name="center" value="2"/>
+		</attr>
+		<attr name="stl_indicatorColor" format="color"/>
+		<attr name="stl_indicatorColors" format="reference"/>
+		<attr name="stl_indicatorThickness" format="dimension"/>
+		<attr name="stl_indicatorWidth" format="dimension">
+			<enum name="auto" value="-1"/>
+		</attr>
+		<attr name="stl_indicatorCornerRadius" format="dimension"/>
+		<attr name="stl_overlineColor" format="color"/>
+		<attr name="stl_overlineThickness" format="dimension"/>
+		<attr name="stl_underlineColor" format="color"/>
+		<attr name="stl_underlineThickness" format="dimension"/>
+		<attr name="stl_dividerColor" format="color"/>
+		<attr name="stl_dividerColors" format="reference"/>
+		<attr name="stl_dividerThickness" format="dimension"/>
+		<attr name="stl_defaultTabBackground" format="reference"/>
+		<attr name="stl_defaultTabTextAllCaps" format="boolean"/>
+		<attr name="stl_defaultTabTextColor" format="color|reference"/>
+		<attr name="stl_defaultTabTextSize" format="dimension"/>
+		<attr name="stl_defaultTabTextHorizontalPadding" format="dimension"/>
+		<attr name="stl_defaultTabTextMinWidth" format="dimension"/>
+		<attr name="stl_customTabTextLayoutId" format="reference"/>
+		<attr name="stl_customTabTextViewId" format="reference"/>
+		<attr name="stl_distributeEvenly" format="boolean"/>
+		<attr name="stl_clickable" format="boolean"/>
+		<attr name="stl_titleOffset" format="dimension">
+			<enum name="auto_center" value="-1"/>
+		</attr>
+		<attr name="stl_drawDecorationAfterTab" format="boolean"/>
+	</declare-styleable>
+	<declare-styleable name="Rotate3dAnimation">
+		<attr name="rollType" format="enum">
+			<enum name="x" value="0"/>
+			<enum name="y" value="1"/>
+			<enum name="z" value="2"/>
+		</attr>
+		<attr name="fromDeg" format="float" />
+		<attr name="toDeg" format="float" />
+		<attr name="pivotX" format="fraction"/>
+		<attr name="pivotY" format="fraction" />
+	</declare-styleable>
+	<declare-styleable name="Dialog">
+		<attr name="DialogTitleAppearance" format="reference" />
+		<attr name="DialogTitleText" format="reference|string" />
+		<attr name="DialogSpotColor" format="reference|color"/>
+		<attr name="DialogSpotCount" format="integer"/>
+	</declare-styleable>
+
+	<declare-styleable name="NumberProgressBar">
+		<attr name="progress_current" format="integer"/>
+		<attr name="progress_max" format="integer"/>
+
+		<attr name="progress_unreached_color" format="color"/>
+		<attr name="progress_reached_color" format="color"/>
+
+		<attr name="progress_reached_bar_height" format="dimension"/>
+		<attr name="progress_unreached_bar_height" format="dimension"/>
+
+		<attr name="progress_text_size" format="dimension"/>
+		<attr name="progress_text_color" format="color"/>
+
+		<attr name="progress_text_offset" format="dimension"/>
+
+		<attr name="progress_text_visibility" format="enum">
+			<enum name="visible" value="0"/>
+			<enum name="invisible" value="1"/>
+		</attr>
+	</declare-styleable>
+
+	<declare-styleable name="Themes">
+		<attr name="numberProgressBarStyle" format="reference"/>
+	</declare-styleable>
+
+	<declare-styleable name="ColorPreference">
+		<attr name="picker_dialogTitle" format="string|reference" />
+		<attr name="picker_colors" format="reference" />
+		<attr name="picker_columns" format="integer" />
+		<attr name="picker_allowCustomColor" format="boolean" />
+	</declare-styleable>
+
+	<declare-styleable name="Theme">
+		<attr name="discreteSeekBarStyle" format="reference"/>
+	</declare-styleable>
+	<declare-styleable name="AMapDiscreteSeekBar">
+		<attr name="dsb_min" format="integer|dimension"/>
+		<attr name="dsb_max" format="integer|dimension"/>
+		<attr name="dsb_value" format="integer|dimension"/>
+		<attr name="dsb_mirrorForRtl" format="boolean"/>
+		<attr name="dsb_allowTrackClickToDrag" format="boolean"/>
+		<attr name="dsb_progressColor" format="color|reference"/>
+		<attr name="dsb_trackColor" format="color|reference"/>
+		<attr name="dsb_indicatorTextAppearance" format="reference"/>
+		<attr name="dsb_indicatorColor" format="color|reference"/>
+		<attr name="dsb_indicatorElevation" format="dimension"/>
+		<attr name="dsb_indicatorFormatter" format="string|reference"/>
+		<attr name="dsb_rippleColor" format="color|reference"/>
+		<attr name="dsb_indicatorPopupEnabled" format="boolean"/>
+		<attr name="dsb_trackHeight" format="integer|dimension"/>
+		<attr name="dsb_scrubberHeight" format="integer|dimension"/>
+		<attr name="dsb_thumbSize" format="integer|dimension"/>
+		<attr name="dsb_indicatorSeparation" format="integer|dimension"/>
+	</declare-styleable>
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MCSScalableLayout">
+		<attr name="scale_base_width" 		format="float" />
+		<attr name="scale_base_height" 		format="float" />
+		<attr name="scale_textsize" 	format="float" />
+		<attr name="scale_top" 			format="float" />
+		<attr name="scale_left" 		format="float" />
+		<attr name="scale_width" 		format="float" />
+		<attr name="scale_height" 		format="float" />
+		<attr name="textview_wrapcontent_direction" 		format="string" />
+		<attr name="textview_wrapcontent_resizesurrounded" 	format="boolean" />
+		<attr name="textview_wrapcontent_movesiblings" 	format="boolean" />
+	</declare-styleable>
+
+
+	<declare-styleable name="AMapSpeedTextView">
+		<attr name="speed_textStroke" format="boolean"/>
+		<attr name="speed_textStrokeWidth" format="float"/>
+		<attr name="speed_textStrokeColor" format="color"/>
+	</declare-styleable>
+	<declare-styleable name="TwitterSplashView">
+		<attr name="iconTwitterSplashView" format="reference"/>
+		<attr name="iconColor" format="color"/>
+		<attr name="holeFillColor" format="color"/>
+		<attr name="duration" format="integer"/>
+		<attr name="removeFromParentOnEnd" format="boolean"/>
+	</declare-styleable>
+	<declare-styleable name="ScaleLayout">
+
+		<attr name="layout_scale_by" format="enum">
+			<enum name="width" value="0"/>
+			<enum name="height" value="1"/>
+		</attr>
+
+		<attr name="android:layout_width"/>
+		<attr name="android:layout_height"/>
+
+		<attr name="android:layout_margin"/>
+		<attr name="android:layout_marginLeft"/>
+		<attr name="android:layout_marginTop"/>
+		<attr name="android:layout_marginRight"/>
+		<attr name="android:layout_marginBottom"/>
+		<attr name="android:layout_marginStart"/>
+		<attr name="android:layout_marginEnd"/>
+
+		<attr name="android:padding"/>
+		<attr name="android:paddingLeft"/>
+		<attr name="android:paddingTop"/>
+		<attr name="android:paddingRight"/>
+		<attr name="android:paddingBottom"/>
+		<attr name="android:paddingStart"/>
+		<attr name="android:paddingEnd"/>
+
+
+	</declare-styleable>
+</resources>

@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="activity_horizontal_margin">56dp</dimen>
+    <dimen name="activity_vertical_margin">56dp</dimen>
+
+    <dimen name="mainmenu_clocktime_txtsize">40dp</dimen>
+    <dimen name="mainmenu_ampm_txtsize">12dp</dimen>
+    <dimen name="mainmenu_clocktime_paddingleft">28dp</dimen>
+
+    <dimen name="drive_address_textsize">28dp</dimen>
+    <dimen name="drive_dirinfo_textsize">20dp</dimen>
+
+
+    <dimen name="drive_andolayout_height">75dp</dimen>
+    <dimen name="drive_andolayout_tbt_height">75dp</dimen>
+    <dimen name="drive_andolayout_speed_height">90dp</dimen>
+
+
+
+
+
+
+
+
+
+    <!--Landcape mode -->
+    <!--<dimen name="drive_newandolayout_tbtlist_width">330dp</dimen>-->
+    <!--<dimen name="drive_newandolayout_tbtlist_height">115dp</dimen>-->
+
+    <!--<dimen name="drive_newandolayout_sub_tbtlist_width">330dp</dimen>-->
+    <!--<dimen name="drive_newandolayout_sub_tbtlist_height">161dp</dimen>-->
+
+
+
+
+
+
+
+
+    <dimen name="trip_middle_contents_textsize" tools:ignore="MissingDefaultResource">13dp</dimen>
+
+    <dimen name="popup_btn_textsize" tools:ignore="MissingDefaultResource">22dp</dimen>
+
+
+
+    <dimen name="drive_sdk_mapmode_width_height">32dp</dimen>
+    <dimen name="drive_sdk_button_width_height">41dp</dimen>
+</resources>

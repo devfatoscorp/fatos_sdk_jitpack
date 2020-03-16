@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/titlebar_color">
+
+        <biz.fatossdk.exlib.swipemenulistview.SwipeMenuListView
+            android:id="@+id/list_favorite_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="#dcdcdc"
+            android:dividerHeight="1dp"
+            android:background="@color/list_color"
+            android:cacheColorHint="@color/white"/>
+
+    </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>

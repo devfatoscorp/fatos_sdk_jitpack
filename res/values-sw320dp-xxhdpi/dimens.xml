@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="activity_horizontal_margin">56dp</dimen>
+    <dimen name="activity_vertical_margin">56dp</dimen>
+
+    <dimen name="mainmenu_clocktime_txtsize">40dp</dimen>
+    <dimen name="mainmenu_ampm_txtsize">12dp</dimen>
+    <dimen name="mainmenu_clocktime_paddingleft">28dp</dimen>
+
+    <dimen name="drive_address_textsize">18sp</dimen>
+    <dimen name="drive_dirinfo_textsize">16dp</dimen>
+
+
+    <dimen name="drive_andolayout_height">75dp</dimen>
+    <dimen name="drive_andolayout_tbt_height">75dp</dimen>
+    <dimen name="drive_andolayout_speed_height">90dp</dimen>
+
+    <dimen name="drive_button_width_height" tools:ignore="MissingDefaultResource">60dp</dimen>
+
+
+
+
+
+
+
+
+    <!--Landcape mode -->
+    <!--<dimen name="drive_newandolayout_tbtlist_width">330dp</dimen>-->
+    <!--<dimen name="drive_newandolayout_tbtlist_height">115dp</dimen>-->
+
+    <!--<dimen name="drive_newandolayout_sub_tbtlist_width">330dp</dimen>-->
+    <!--<dimen name="drive_newandolayout_sub_tbtlist_height">161dp</dimen>-->
+    <dimen name="drive_newandolayout_sub_tbtlist_height" tools:ignore="MissingDefaultResource">205dp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

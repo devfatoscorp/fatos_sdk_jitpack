@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+        android:id="@+id/view_expandable_headerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/section_item_layout"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="75dp">
+            <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+                android:layout_alignParentLeft="true"
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+                <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/poiname"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:paddingLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:maxLength="@integer/list_max_length"
+                        android:ellipsize="end"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/addressname"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="5dp"
+                        android:paddingLeft="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textColor="@color/FatosLightGray"
+                        android:maxLength="@integer/list_max_length"
+                        android:textSize="15sp"/>
+                </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+            </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+                android:id="@+id/layout_poi_detail"
+                android:background="@color/titlebar_color"
+                android:layout_alignParentRight="true"
+                android:layout_width="37dp"
+                android:layout_height="75dp">
+                <ImageView
+                    android:id="@+id/img_poi_detail"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_alignRight = "@+id/poiname"
+                    android:background = "@drawable/list_icon_map_n"
+                    />
+            </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+            <!--<ImageView-->
+            <!--android:id="@+id/img_poi_detail"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_toLeftOf="@+id/img_leftright"-->
+            <!--android:background = "@drawable/detail_2_16_3"-->
+            <!--/>-->
+            <!--<ImageView-->
+            <!--android:id="@+id/img_leftright"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_alignRight = "@+id/poiname"-->
+            <!--android:src = "@drawable/btn_back_left"-->
+            <!--/>-->
+        </biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:id="@+id/viewmap_detailinfo_land_layout"
+        android:layout_below="@+id/view_expandable_headerlayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/titlebar_color">
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="left|center_vertical"
+            android:layout_height="15dp"
+            android:background="@color/titlebar_color">
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:background = "@drawable/icon_bullet_sb"
+                />
+            <TextView
+                android:id="@+id/evinfo1_land"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="5dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/FatosLightGray"
+                android:text="DC차데모 | 대기중"
+                android:textSize="14sp"/>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="left|center_vertical"
+            android:layout_height="15dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/titlebar_color">
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:layout_toLeftOf="@+id/img_leftright"
+                android:background = "@drawable/icon_bullet_sb"
+                />
+            <TextView
+                android:id="@+id/evinfo2_land"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="5dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:text="지하 3층 주차장 B7구역"
+                android:singleLine="true"
+                android:textColor="@color/FatosLightGray"
+                android:textSize="14sp"/>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="left|center_vertical"
+            android:layout_height="18dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/titlebar_color">
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:layout_toLeftOf="@+id/img_leftright"
+                android:background = "@drawable/icon_bullet_sb"
+                />
+            <TextView
+                android:id="@+id/evinfo3_land"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="5dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:text="지하 3층 주차장 B7구역"
+                android:singleLine="true"
+                android:textColor="@color/FatosLightGray"
+                android:textSize="14sp"/>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="left|center_vertical"
+            android:layout_height="18dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/titlebar_color">
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:layout_toLeftOf="@+id/img_leftright"
+                android:background = "@drawable/icon_bullet_sb"
+                />
+            <TextView
+                android:id="@+id/evinfo4_land"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="5dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:text="지하 3층 주차장 B7구역"
+                android:singleLine="true"
+                android:textColor="@color/FatosLightGray"
+                android:textSize="14sp"/>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout
+        android:id="@+id/view_expandable_contentLayout"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/drive_poiindo_submap_width_height"
+        android:background="@color/submap_back_color"
+        android:layout_below="@+id/view_expandable_headerlayout">
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="6"
+            android:background="@color/submap_back_color"
+            >
+            <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/view_expandable_subMapLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/drive_poiindo_submap_width_height"
+                android:background="@color/submap_back_color">
+                <!--<biz.fatos.nativeMap.FatosListMapView-->
+                <!--android:name="biz.fatos.nativeMap.FatosListMapView"-->
+                <!--android:background="@color/titlebar_color"-->
+                <!--android:id="@+id/map_fragment"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/drive_poiindo_submap_width_height" />-->
+            </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_extend_map_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="right" >
+            <ImageButton
+                android:layout_gravity="right"
+                android:id="@+id/imgbtn_extend_map"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background = "@drawable/icon_map_zoom"
+                />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/layout_zoom"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:layout_gravity="center|right" >-->
+        <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="fill_parent">-->
+
+        <!--<ImageButton-->
+        <!--android:orientation="vertical"-->
+        <!--android:id="@+id/btn_zoomin"-->
+        <!--android:layout_width="@dimen/drive_button_width_height"-->
+        <!--android:layout_height="@dimen/drive_button_width_height"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:src="@drawable/btn_1_6_4"-->
+        <!--android:background="@drawable/btn_1_6_1"-->
+        <!--android:adjustViewBounds="false" />-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/btn_zoomout"-->
+        <!--android:layout_width="@dimen/drive_button_width_height"-->
+        <!--android:layout_height="@dimen/drive_button_width_height"-->
+        <!--android:scaleType="fitCenter"-->
+        <!--android:src="@drawable/btn_1_6_5"-->
+        <!--android:background="@drawable/btn_1_6_1"-->
+        <!--android:gravity="center_vertical"-->
+        <!--/>-->
+        <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:id="@+id/viewmap_button_layout"
+        android:layout_below="@+id/view_expandable_contentLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/submap_button_color">
+
+        <ImageButton
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:duplicateParentState="true"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_favorite_name_modify"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:drawablePadding="3dp"
+            android:src="@drawable/btn_icon_change"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@color/submap_button_color"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/hlinecolor_button"
+            />
+
+        <ImageButton
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:duplicateParentState="true"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:id="@+id/btn_favorite_delete"
+            android:textColor="@color/white"
+            android:src="@drawable/btn_icon_delete"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@color/submap_button_color"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/hlinecolor_button"
+
+            />
+
+        <Button
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:duplicateParentState="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:id="@+id/btn_route_btn"
+            android:text="@string/string_routing"
+            android:textColor="@color/white"
+            android:drawablePadding="3dp"
+            android:drawableLeft="@drawable/btn_icon_goal"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:background="#196ea6"
+            />
+
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:id="@+id/viewmap_detailinfo_layout"
+        android:layout_below="@+id/viewmap_button_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/titlebar_color">
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="left|center_vertical"
+            android:layout_height="15dp"
+            android:background="@color/titlebar_color">
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:background = "@drawable/icon_bullet_sb"
+                />
+            <TextView
+                android:id="@+id/evinfo1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="5dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/FatosLightGray"
+                android:text="DC차데모 | 대기중"
+                android:textSize="14sp"/>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="left|center_vertical"
+            android:layout_height="15dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/titlebar_color">
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:layout_toLeftOf="@+id/img_leftright"
+                android:background = "@drawable/icon_bullet_sb"
+                />
+            <TextView
+                android:id="@+id/evinfo2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="5dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:text="지하 3층 주차장 B7구역"
+                android:singleLine="true"
+                android:textColor="@color/FatosLightGray"
+                android:textSize="14sp"/>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="left|center_vertical"
+            android:layout_height="18dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/titlebar_color">
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:layout_toLeftOf="@+id/img_leftright"
+                android:background = "@drawable/icon_bullet_sb"
+                />
+            <TextView
+                android:id="@+id/evinfo3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="5dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:text="지하 3층 주차장 B7구역"
+                android:singleLine="true"
+                android:textColor="@color/FatosLightGray"
+                android:textSize="14sp"/>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="left|center_vertical"
+            android:layout_height="18dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/titlebar_color">
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:layout_toLeftOf="@+id/img_leftright"
+                android:background = "@drawable/icon_bullet_sb"
+                />
+            <TextView
+                android:id="@+id/evinfo4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="5dp"
+                android:gravity="left|center_vertical"
+                android:layout_gravity="left|center_vertical"
+                android:text="지하 3층 주차장 B7구역"
+                android:singleLine="true"
+                android:textColor="@color/FatosLightGray"
+                android:textSize="14sp"/>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>

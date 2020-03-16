@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:color="@color/white"
+    android:orientation="vertical">
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:alpha="0.88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            >
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:id="@+id/poplayout_reroute"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/popup_round"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:src="@drawable/img_1_16_7" />
+                <TextView
+                    android:layout_width="118dp"
+                    android:layout_height="50dp"
+                    android:textSize = "20dp"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="재 탐색" />
+
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            >
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:id="@+id/poplayout_routeinfo"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/popup_round"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:src="@drawable/img_1_16_4" />
+                <TextView
+                    android:layout_width="118dp"
+                    android:layout_height="50dp"
+                    android:textSize = "20dp"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="경로 정보" />
+
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:alpha="0.88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:id="@+id/poplayout_routecancel"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/popup_round"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:src="@drawable/btn_1_4_2" />
+                <TextView
+                    android:layout_width="118dp"
+                    android:layout_height="50dp"
+                    android:textSize = "20dp"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="경로 취소" />
+
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            >
+            <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+                android:id="@+id/poplayout_routesimul"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/popup_round"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:src="@drawable/btn_1_16_11_car" />
+                <TextView
+                    android:id="@+id/poptxt_simul"
+                    android:layout_width="118dp"
+                    android:layout_height="50dp"
+                    android:textSize = "20dp"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="모의주행 시작" />
+
+            </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+</biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>

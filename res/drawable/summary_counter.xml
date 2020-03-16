@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item android:drawable="@mipmap/m_button_highlight_count01" android:duration="100" />
+    <item android:drawable="@mipmap/m_button_highlight_count02" android:duration="100" />
+    <item android:drawable="@mipmap/m_button_highlight_count03" android:duration="100" />
+    <item android:drawable="@mipmap/m_button_highlight_count04" android:duration="100" />
+    <item android:drawable="@mipmap/m_button_highlight_count05" android:duration="100" />
+    <item android:drawable="@mipmap/m_button_highlight_count06" android:duration="100" />
+    <item android:drawable="@mipmap/m_button_highlight_count07" android:duration="100" />
+    <item android:drawable="@mipmap/m_button_highlight_count08" android:duration="100" />
+    <item android:drawable="@mipmap/m_button_highlight_count09" android:duration="100" />
+    <item android:drawable="@mipmap/m_button_highlight_count10" android:duration="100" />
+    <item android:drawable="@mipmap/m_button_highlight_count11" android:duration="100" />
+    <item android:drawable="@mipmap/m_button_highlight_count12" android:duration="100" />
+    <item android:drawable="@mipmap/m_button_highlight_count13" android:duration="100" />
+</animation-list>

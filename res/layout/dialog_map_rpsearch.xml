@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView android:id="@+id/ScrollView1" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbars="vertical" >
+
+            <EditText
+                android:id="@+id/EditTextRpStartLat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="@string/rpStartLat"
+                android:lines="1"
+                android:singleLine="true" />
+			<requestFocus />
+            <EditText
+                android:id="@+id/EditTextRpStartLon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="@string/rpStartLon"
+                android:lines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/EditTextRpDestLat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="@string/rpDestLat"
+                android:lines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/EditTextRpDestLon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="@string/rpDestLon"
+                android:lines="1"
+                android:singleLine="true" >
+
+                
+            </EditText>
+        </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    </ScrollView>

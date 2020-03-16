@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/titlebar_color"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center_vertical|center_horizontal"
+    android:alpha="0.88"
+    android:orientation="vertical">
+
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "23dp"
+            android:textColor="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="경로 색상" />
+
+        <Button
+            android:id="@+id/routeline_sel"
+            android:text="     "
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/routeline0"
+            android:text="     "
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/routeline1"
+            android:text="     "
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/routeline2"
+            android:text="     "
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/routeline3"
+            android:text="     "
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_routelinecolor"
+            />
+        <Button
+            android:id="@+id/routeline4"
+            android:text="     "
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_routelinecolor"
+            />
+        <Button
+            android:id="@+id/routeline5"
+            android:text="     "
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_routelinecolor"
+            />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+    <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/routeline6"
+            android:text="     "
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+        <Button
+            android:id="@+id/routeline7"
+            android:text="     "
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+        <Button
+            android:id="@+id/routeline8"
+            android:text="     "
+            android:layout_marginLeft="5dp"
+            android:layout_width="108dp"
+            android:layout_height="40dp"
+            android:textSize = "18dp"
+            android:textColor="@color/white"
+            android:background="@drawable/popup_round"
+            />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>
+
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:id="@+id/btn_close"
+        android:text="닫기"
+        android:layout_width="108dp"
+        android:layout_height="40dp"
+        android:textSize = "20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/popup_round"
+        />
+
+</biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <item type="integer" name="list_max_length" tools:ignore="MissingDefaultResource">28</item>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/autoComplete_layout"
+    >
+
+    <biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:background="@color/titlebar_color">
+        <!--android:focusable="true"-->
+        <!--android:focusableInTouchMode="true"-->
+        <!-- EditText for Search -->
+        <EditText android:id="@+id/poiname_edit_text"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white"
+            android:hint="검색어를 입력해주세요."
+            android:textColorHint="#C5C5C1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:textSize="20dp"
+            android:gravity="left"/>
+
+
+        <ImageButton
+            android:id="@+id/btn_poinamesearch"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="8dp"
+            android:layout_alignRight="@+id/poiname_edit_text"
+            android:background="@drawable/btn_2_3_2"/>
+
+        <ImageButton
+            android:id="@+id/btn_clear"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:scaleType="fitCenter"
+            android:layout_toLeftOf="@+id/btn_poinamesearch"
+            android:background="@drawable/btn_2_3_1"/>
+
+    </biz.fatossdk.exlib.fatoslayout.AMapSCRelativeLayout>
+    <biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/titlebar_color">
+        <ListView
+            android:id="@+id/list_poi_search_res"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="#dcdcdc"
+            android:dividerHeight="1dp"
+            android:background="@color/list_color"
+            android:cacheColorHint="@color/white"/>
+
+        <ListView
+            android:id="@+id/list_poi_name_suggest"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="#dcdcdc"
+            android:dividerHeight="1dp"
+            android:background="@color/list_color"
+            android:layout_marginLeft="16dp"
+            android:cacheColorHint="@color/white" />
+    </biz.fatossdk.exlib.fatoslayout.AMapSCFrameLayout>
+</biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout>

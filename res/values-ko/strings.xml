@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="color_picker_default_title">경로 색상</string>
+    <string name="color_swatch_description">Color <xliff:g id="color_index" example="14">%1$d</xliff:g></string>
+    <string name="color_swatch_description_selected">Color <xliff:g id="color_index" example="14">%1$d</xliff:g> selected</string>
+    <string name="color_picker_manual_color_hint" tools:ignore="MissingTranslation">or enter a color code here</string>
+    <string name="init_title">위치정보사용동의</string>
+    <string name="init_text">운전 중 조작은 위험하오니,반드시 정차 후 사용하시기 바랍니다.\n정확한 길안내 서비스 제공을 위해 현재 위치 정보를 사용해야 합니다.\n\n동의하시겠습니까?</string>
+    <string name="init_text_port">운전 중 조작은 위험하오니,\n반드시 정차 후\n사용하시기 바랍니다.\n\n정확한 길안내 서비스\n제공을 위해 현재 위치\n정보를 사용해야 합니다.\n\n동의하시겠습니까?</string>
+    <string name="hello">안녕하세요 파토스 내비게이션입니다.</string>
+    <string name="action_settings">Action Settingd</string>
+    <string name="longTouchPlease">길게 터치한 후 기다려 주세요.</string>
+    <string name="map_not_ready">지도를 준비중입니다.</string>
+    <string name="searchName">검색명</string>
+    <string name="rpStartLat">출발지위도</string>
+    <string name="rpStartLon">출발지경도</string>
+    <string name="rpDestLat">목지지위도</string>
+    <string name="rpDestLon">목지지경도</string>
+    <string name="ahead"> 앞 </string>
+    <string name="ahead_en"> ahead </string>
+    <string name="ahead_ja"> 前方 </string>
+    <string name="ahead_ve"> tới trước </string>
+    <string name="ahead_zh"> 先 </string>
+    <string name="ahead2">  </string>
+    <string name="reRoute"> </string>
+    <string name="TrafficReroute"> </string>
+    <string name="INVALIED_STARTGOAL_SAME"> The start and the goal point is the same location. Please try again. </string>
+    <string name="INVALIED_STARTGOAL_NULL"> There is no input to the start and the goal point </string>
+    <string name="INVALIED_START_NULL"> Please set the start point </string>
+    <string name="INVALIED_GOAL_NULL"> Please set the goal point </string>
+    <string name="INVALIED_ROUTE_FAILED"> Route call failed </string>
+    <string name="INVALIED_NULL"> Certain condition will not be met. </string>
+    <string name="INVALIED_STARTPOS_NOT_SELECTED"> Please set the start point </string>
+    <string name="INVALIED_GOALPOS_NOT_SELECTED"> Please set the goal point </string>
+    <string name="TTS_IC"> 나들목 </string>
+    <string name="TTS_LASTWORD1"> </string>
+    <string name="TTS_LASTWORD2"> </string>
+    <string name="TTS_VIA">  </string>
+    <string name="TTS_GOAL"> </string>
+
+    <string name="string_comfirm">확인</string>
+    <string name="string_yes">예</string>
+    <string name="string_no">아니오</string>
+
+    <string name="string_menu">메뉴</string>
+    <string name="string_getdirections">길찾기</string>
+    <string name="string_searchev">EV 충전소 검색</string>
+    <string name="string_reroute">경로 재탐색</string>
+    <string name="string_changerouteoption">경로 옵션 변경</string>
+    <string name="string_viewroutesummary">경로 요약 보기</string>
+    <string name="string_routecancel">경로 안내 취소</string>
+    <string name="string_routehistory">경로 히스토리</string>
+    <string name="string_preferences">환경설정</string>
+    <string name="string_startsimulation">모의주행 시작</string>
+    <string name="string_stopsimulation">모의주행 중지</string>
+
+    <string name="string_currentlocation">현위치</string>
+    <string name="string_entersearchname">검색어를 입력해주세요.</string>
+    <string name="string_frequent">자주가는곳</string>
+    <string name="string_myplace">즐겨찾기</string>
+    <string name="string_results">검색결과</string>
+    <string name="string_results_sort">      | 빈도수</string>
+    <string name="string_resultpage_sort">      | 정확도</string>
+    <string name="string_add">추가</string>
+    <string name="string_delete">삭제</string>
+    <string name="string_routing">도착</string>
+    <string name="string_set_startpos">출발</string>
+    <string name="string_rename">변경</string>
+    <string name="string_previous">이전으로</string>
+    <string name="string_allview">전체보기</string>
+    <string name="string_empty_text">자주가는곳 목록이 없습니다.</string>
+    <string name="string_history_empty_text">저장된 경로 히스토리가 없습니다.</string>
+
+    <string name="string_routesummary">경로요약</string>
+    <string name="string_optimal">최적경로</string>
+    <string name="string_option">경로옵션</string>
+    <string name="string_distance">전체거리</string>
+    <string name="string_time">전체시간</string>
+    <string name="string_map">지도보기</string>
+    <string name="string_list">목록보기 </string>
+    <string name="string_simulation">모의주행</string>
+    <string name="string_startjourney">길안내</string>
+
+    <string name="string_tripreport">Trip Report</string>
+    <string name="string_tripdistance_express"> 초과</string>
+    <string name="string_tripdistance_shorten"> 단축</string>
+    <string name="string_tripdistance_same"> 동일</string>
+    <string name="string_triptime_express">10분 초과</string>
+    <string name="string_triptime_shorten">10분 단축</string>
+    <string name="string_triptime_realroute">실제경로</string>
+    <string name="string_triptime_firstroute">초기경로</string>
+    <string name="string_triphistory">경로히스토리</string>
+
+    <string name="string_searchforevcharging">EV 충전소 검색</string>
+    <string name="string_dcchademo">DC\n차데모</string>
+    <string name="string_combo">DC\n콤보</string>
+    <string name="string_acph">AC3상</string>
+    <string name="string_free">무료</string>
+    <string name="string_pay">유료</string>
+    <string name="string_freepay">유료무료</string>
+    <string name="string_moderate">완속</string>
+    <string name="string_rapid">급속</string>
+    <string name="string_outlet">220v\n콘센트</string>
+    <string name="string_search">검색</string>
+    <string name="string_evable_charge">충전가능</string>
+    <string name="string_evable_all">전체보기</string>
+
+    <string name="string_settings">환경설정</string>
+    <string name="string_general">일반</string>
+    <string name="string_navigation">내비게이션</string>
+    <string name="string_vehicleinfo">차량 정보</string>
+    <string name="string_distanceunit">거리 단위</string>
+    <string name="string_speedunit">속도 단위</string>
+    <string name="string_defaultlanguage">기본 언어</string>
+    <string name="string_alwaysactive">Always Active</string>
+    <string name="string_termsofUse">이용 약관</string>
+    <string name="string_versioninfo">버전 정보</string>
+    <string name="string_copyright">저작권</string>
+    <string name="string_labtest">연구실</string>
+
+    <string name="string_compact">경차</string>
+    <string name="string_standard">승용차</string>
+    <string name="string_midvan">중형승합차</string>
+    <string name="string_lvan">대형승합차</string>
+    <string name="string_truck">대형화물차</string>
+    <string name="string_spurpose">특수화물차</string>
+    <string name="string_gasoline">휘발유</string>
+    <string name="string_premium">고급 휘발유</string>
+    <string name="string_diesel">경유</string>
+    <string name="string_lpg">LPG</string>
+    <string name="string_electricity">전기</string>
+
+    <string name="string_vehicletype">차종</string>
+    <string name="string_gastype">유종</string>
+
+    <string name="string_app">App</string>
+    <string name="string_buildnumber">빌드 넘버</string>
+    <string name="string_basemapdb">배경</string>
+    <string name="string_searchdb">검색</string>
+    <string name="string_sdi">안전운전데이터</string>
+    <string name="string_simul_gps">Simul GPS</string>
+
+    <string name="string_pathlinecolor">경로 색상</string>
+    <string name="string_routeoptions">경로탐색 옵션</string>
+    <string name="string_nightmode">야간 모드</string>
+    <string name="string_mapcolortheme">지도 색상 테마</string>
+    <string name="string_dynamiczoom">Dynamic Zoom</string>
+    <string name="string_highwaymode">고속도로 모드</string>
+    <string name="string_mapdownload">지도 다운로드</string>
+    <string name="string_option_optimal">최적</string>
+
+    <string name="string_auth">인증</string>
+    <string name="string_authorization_noti_title">단말 인증 안내</string>
+    <string name="string_authorization_noti_text">단말인증에 실패되었습니다.\n단말인증을 재시도 하시거나.\n문제가 지속되는 경우 아래\n문의처로 문의하시기 바랍니다.</string>
+    <string name="string_authorization_noti_yes">계속사용</string>
+    <string name="string_authorization_noti_no">재시도</string>
+    <string name="string_authorization_noti2_title">미인증 단말이용 안내</string>
+    <string name="string_authorization_noti2_text">미인증된 단말 이용시 위험물 운송기능을\n사용하실 수 없으며, 경로안내 기능만\n제공됩니다.</string>
+    <string name="string_authorization_noti2_yes">확인</string>
+    <string name="string_authorization_noti3_text">위험물앱이 응답하지 않습니다.\n위험물앱이 실행중인지 확인해 주세요.</string>
+
+    <string name="string_routerecovery">경로 이어보기</string>
+    <string name="string_routebefore">이전 경로로 안내받으시겠습니까?</string>
+    <string name="string_backbtnexit">뒤로 버튼을 한번 더 누르면 종료됩니다.</string>
+    <string name="string_reroute_status">경로가 재탐색되었습니다.</string>
+    <string name="string_routecancel_status">경로안내가 취소되었습니다.</string>
+    <string name="string_arrived_destination">목적지에 도착했습니다.</string>
+    <string name="string_already_registered">이미 등록된 위치입니다.</string>
+    <string name="string_registered">등록되었습니다.</string>
+    <string name="string_removed">해제되었습니다.</string>
+    <string name="string_deleted">삭제되었습니다.</string>
+    <string name="string_settheorigin">출발지를 설정해주십시오.</string>
+    <string name="string_nosave_myplace">저장된 즐겨찾기가 없습니다.</string>
+    <string name="string_noresult_found">검색된 결과가 없습니다.</string>
+    <string name="string_nosaved_frequent">저장된 자주가는곳이 없습니다.</string>
+    <string name="string_preparingtheservice">서비스 준비중입니다.</string>
+    <string name="string_set_origin">출발지가 설정되었습니다.</string>
+    <string name="string_gettingdirections">경로 탐색중입니다.</string>
+    <string name="string_viewall">전체보기</string>
+    <string name="string_allcount">총</string>
+    <string name="string_getdirectionsfailed_server">[1001] 경로탐색이 실패하였습니다.</string>
+    <string name="string_googleroutefail_inkorea_server">[1002] Google map API는 한국지역의 경로탐색을 제공하지 않습니다.</string>
+    <string name="string_addGoalFail">목적지에 추가할 수 없습니다.</string>
+    <string name="string_googleroutefail_inkorea_server_fatos">Google map API는 한국지역의 경로탐색을 제공하지 않아 FATOS Map으로 탐색 됩니다.</string>
+    <string name="string_evsearch_failed_server">[2001] 서비스 지연 중입니다.</string>
+    <string name="string_getdirectionsfailed">[101] 경로탐색이 실패하였습니다.</string>
+    <string name="string_hour">시간</string>
+    <string name="string_min">분</string>
+    <string name="string_sec">초</string>
+    <string name="string_routeguidance">경로 안내</string>
+    <string name="string_routeguidance_exit">경로 안내를 종료하시겠습니까?</string>
+    <string name="string_routesimul_exit">모의주행을 종료하시겠습니까?</string>
+
+    <string name="string_alert">알림</string>
+    <string name="string_language_change">언어설정을 변경하시겠습니까?\n설정된 언어로 표시 못하는 일부 화면이\n존재할 수 있습니다.</string>
+
+    <string name="string_searching">검색 중..</string>
+    <string name="string_waitsummarydata">경로 요약 데이터 생성 중..</string>
+    <string name="string_tripinfo">Trip Info 데이터 생성 중..</string>
+
+    <string name="string_accident_title">사고 신고</string>
+    <string name="string_accident_yes">신고</string>
+    <string name="string_accident_no">취소</string>
+    <string name="string_accident_00">일반사고 신고를 하시겠습니까?</string>
+    <string name="string_accident_01">차량고장 신고를 하시겠습니까?</string>
+    <string name="string_accident_02">물질누출 신고를 하시겠습니까?</string>
+
+    <string name="string_engine_title">차량 시동 감지</string>
+    <string name="string_engine_on_content">이전 운행중이던 운행계획이 있습니다.\n다시 운행을 시작하시겠습니까?</string>
+    <string name="string_engine_on_yes">운행시작</string>
+    <string name="string_engine_on_no">아니요</string>
+    <string name="string_engine_off_content">차량 시동이 꺼졌습니다.\n잠시 주정차 하는 경우 \'휴식\' 버튼을 눌러 주세요.</string>
+    <string name="string_engine_off_yes">휴식</string>
+    <string name="string_engine_off_no">닫기</string>
+
+    <string name="string_noti_title_1">이상운행 알림</string>
+    <string name="string_noti_title_3">사고감지 알림</string>
+    <string name="string_noti_yes">신고</string>
+    <string name="string_noti_no">닫기</string>
+    <string name="string_noti_cancel">취소</string>
+    <string name="keyboard_go_key">확인</string>
+    <string name="keyboard_next_key">다음</string>
+    <string name="keyboard_send_key">보내기</string>
+
+    <string name="string_control_title">운행상태 설정</string>
+    <string name="string_control_content_00">휴식상태로 변경하시겠습니까?</string>
+    <string name="string_control_content_01">운행상태로 변경하시겠습니까?</string>
+    <string name="string_control_content_02">현재 경유지를 취소하시겠습니까?</string>
+    <string name="string_control_content_03">현재 운행계획을 취소하시겠습니까?</string>
+    <string name="string_control_content_04">현재 운행계획을 종료하시겠습니까?</string>
+    <string name="string_control_yes">변경</string>
+    <string name="string_control_no">아니오</string>
+
+    <string name="string_ev_chademo">차데모</string>
+    <string name="string_ev_chaac">차데모/AC3상</string>
+    <string name="string_ev_dccombo">DC콤보</string>
+    <string name="string_ev_chadc">차데모/DC콤보</string>
+    <string name="string_ev_acdc">차데모/AC3상/DC콤보</string>
+    <string name="string_ev_ac">AC3상</string>
+    <string name="string_ev_noinformation">정보없음</string>
+    <string name="string_ev_slowcharge">완속</string>
+
+    <string name="string_ev_stopoper">가동중지</string>
+    <string name="string_ev_wait">대기중</string>
+    <string name="string_ev_stopmng">운영중지</string>
+    <string name="string_ev_checking">점검중</string>
+    <string name="string_ev_notconn">통신미연결</string>
+    <string name="string_ev_expect">설치예정</string>
+
+    <string name="string_ev_rapid">급속</string>
+    <string name="string_ev_slow">완속</string>
+    <string name="string_ev_both">급속/완속</string>
+    <string name="string_ev_twotwobolt">220V 콘센트</string>
+
+    <string name="string_ev_detail_type">Type</string>
+    <string name="string_ev_detail_hour">이용시간</string>
+    <string name="string_ev_detail_status">상태</string>
+    <string name="string_ev_detail_etc">기타</string>
+
+    <string name="string_set_origin_routing">출발지로</string>
+    <string name="location_updated">Location Updated: %1$s</string>
+
+    <string name="apk_update_message">최신버전으로 업데이트가 필요합니다.</string>
+    <string name="apk_update_title">App Update</string>
+    <string name="force_closed">최신버전으로 업데이트가 필요합니다. 업데이트 버튼을 누르면 앱 스토어로 이동합니다.</string>
+    <string name="force_goplaystore">PlayStore 가기</string>
+    <string name="force_exitapp">앱 종료</string>
+    <string name="string_avgspeed">평균속도</string>
+    <string name="string_startupdate">업데이트 시작</string>
+
+    <string name="sdi_ahead">약</string>
+    <string name="sdi_speed">시속 </string>
+    <string name="sdi_km"> 킬로미터 </string>
+    <string name="sdi_mi"> 마일 </string>
+    <string name="sdi_kmperhour">km per hour</string>
+    <string name="sdi_mileperhour">mile per hour</string>
+    <string name="sdi_type1">과속단속구간 입니다.</string>
+    <string name="sdi_type2">과속 및 버스전용차로 단속구간 입니다.</string>
+    <string name="sdi_type3">과속 단속구간 입니다.</string>
+    <string name="sdi_type4">구간단속 시작 지점입니다.</string>
+    <string name="sdi_type5">구간단속 끝 지점입니다.</string>
+    <string name="sdi_type6">적재불량 단속 지점입니다.</string>
+    <string name="sdi_type7">표지판 미부착 카메라 단속 지점입니다.</string>
+    <string name="sdi_type8">버스전용차로 단속구간 입니다.</string>
+    <string name="sdi_type9">이동식 단속구간 입니다.</string>
+    <string name="sdi_type10">과적위반 단속카메라 지점입니다.</string>
+    <string name="sdi_type11">과적위반 단속카메라 지점입니다.</string>
+    <string name="sdi_type12">차량번호 인식장치 카메라 지점입니다.</string>
+    <string name="sdi_type13">교통정보 수집장치 입니다.</string>
+    <string name="sdi_type14">신호와 과속단속구간 입니다.</string>
+    <string name="sdi_type15">신호 단속구간 입니다.</string>
+
+    <string name="sdi_type16">주정차 단속 지점입니다.</string>
+    <string name="sdi_type17">갓길 단속 카메라 지점입니다.</string>
+    <string name="sdi_type18">끼어들기 단속 카메라 지점입니다.</string>
+    <string name="sdi_type19">가변 차로 단속 지점입니다.</string>
+
+    <string name="sdi_type30">사고다발 지역 입니다.</string>
+    <string name="sdi_type31">급커브 지역 입니다.</string>
+    <string name="sdi_type32">안개 지역 입니다.</string>
+    <string name="sdi_type33">어린이 보호 구역 입니다.</string>
+    <string name="sdi_type34">어린이 보호 구역 종점 지점입니다.</string>
+    <string name="sdi_type35">철길 건널목 입니다.</string>
+    <string name="sdi_type36">과속 방지턱 입니다.</string>
+
+    <string name="sdi_ahead_jp">約</string>
+    <string name="sdi_speed_jp">時速 </string>
+    <string name="sdi_km_jp"> キロメートル </string>
+    <string name="sdi_mi_jp"> マイル </string>
+    <string name="sdi_kmperhour_jp">毎時キロメートル</string>
+    <string name="sdi_mileperhour_jp">毎時マイル</string>
+
+    <string name="sdi_type1_jp">スピード取り締まり区間です.</string>
+    <string name="sdi_type2_jp">スピードとバスレーン取り締まり区間です。</string>
+    <string name="sdi_type3_jp">スピード取り締まり区間です。</string>
+    <string name="sdi_type4_jp">区間取り締まりの開始点です。</string>
+    <string name="sdi_type5_jp">区間取り締まりの終点です。</string>
+    <string name="sdi_type6_jp">積載不良取締ポイントです。</string>
+    <string name="sdi_type7_jp">標識不良取り締まりポイントです。</string>
+    <string name="sdi_type8_jp">バスレーン取り締まり区間です。</string>
+    <string name="sdi_type9_jp">移動式カメラ取り締まり区間です。</string>
+    <string name="sdi_type10_jp">過載違反取締りカメラポイントです。</string>
+    <string name="sdi_type11_jp">過載違反取締りカメラポイントです。</string>
+    <string name="sdi_type12_jp">車両番号認識装置のカメラポイントです。</string>
+    <string name="sdi_type13_jp">交通情報収集装置です</string>
+    <string name="sdi_type14_jp">信号とスピード取り締まり区間です.</string>
+    <string name="sdi_type15_jp">信号とスピード取り締まり区間です.</string>
+
+    <string name="sdi_ahead_ve">về</string>
+    <string name="sdi_speed_ve">tốc độ </string>
+    <string name="sdi_km_ve">cây số </string>
+    <string name="sdi_mi_ve"> dặm </string>
+    <string name="sdi_kmperhour_ve">Km mỗi giờ</string>
+    <string name="sdi_mileperhour_ve">Mỗi giờ dặm</string>
+
+    <string name="sdi_type1_ve">Tốc độ là phần thực thi.</string>
+    <string name="sdi_type2_ve">Đó là phần tốc độ và xe buýt thực thi làn。</string>
+    <string name="sdi_type3_ve">Tốc độ là phần thực thi。</string>
+    <string name="sdi_type4_ve">Là điểm khởi đầu của bộ phận đàn áp。</string>
+    <string name="sdi_type5_ve">Đây là điểm kết thúc của phần chiến dịch đàn áp。</string>
+    <string name="sdi_type6_ve">Đang tải là điểm thi xấu。</string>
+    <string name="sdi_type7_ve">Nó được dán nhãn điểm đàn áp xấu。</string>
+    <string name="sdi_type8_ve">Bus làn là phần thực thi。</string>
+    <string name="sdi_type9_ve">Nó là một phần thực thi máy ảnh điện thoại di động。</string>
+    <string name="sdi_type10_ve">Đó là quá tải điểm camera bẫy。</string>
+    <string name="sdi_type11_ve">Đó là quá tải điểm camera bẫy。</string>
+    <string name="sdi_type12_ve">Đây là điểm camera của chiếc xe hệ thống nhận dạng số。</string>
+    <string name="sdi_type13_ve">thiết bị thu thập thông tin giao thông này</string>
+    <string name="sdi_type14_ve">Đây là một khu vực tín hiệu và thực thi tốc độ.</string>
+    <string name="sdi_type15_ve">Đây là một khu vực tín hiệu và thực thi tốc độ.</string>
+
+    <string name="sdi_ahead_zh">关于</string>
+    <string name="sdi_speed_zh">MPH </string>
+    <string name="sdi_km_zh"> 公里 </string>
+    <string name="sdi_mi_zh"> 英里 </string>
+    <string name="sdi_kmperhour_zh">公里每小时</string>
+    <string name="sdi_mileperhour_zh">英里每小时</string>
+    <string name="sdi_speedis_zh">限速</string>
+
+    <string name="sdi_type1_zh">超速是间歇区间。</string>
+    <string name="sdi_type2_zh">间歇时间间隔和在加快公交专用道。</string>
+    <string name="sdi_type3_zh">超速是间歇区间。</string>
+    <string name="sdi_type4_zh">间歇时间间隔的起点。</string>
+    <string name="sdi_type5_zh">强制执行期间结束。</string>
+    <string name="sdi_type6_zh">加载失败是间歇性的点。</string>
+    <string name="sdi_type7_zh">注册mibuchak相机执法分局.</string>
+    <string name="sdi_type8_zh">强制执行期间公交专用车道。</string>
+    <string name="sdi_type9_zh">甲李·多赛克间歇区间。</string>
+    <string name="sdi_type10_zh">超载违反执法摄像机点。</string>
+    <string name="sdi_type11_zh">超载违反执法摄像机点。</string>
+    <string name="sdi_type12_zh">车号识别系统摄像机点。</string>
+    <string name="sdi_type13_zh">交通信息收集设备。</string>
+    <string name="sdi_type14_zh">信号和速度强制部。</string>
+    <string name="sdi_type15_zh">信号和速度强制部。</string>
+
+    <string name="string_set_lanuage">언어 설정</string>
+
+    <string-array name="country_names">
+        <item>한국어</item>
+        <item>English</item>
+        <item>Deutsch</item>
+        <item>Français</item>
+        <item>Nederlands</item>
+        <item>简体中文</item>
+        <item>日本語</item>
+        <item>Tiếng Việt</item>
+    </string-array>
+
+    <string-array name="country_codes">
+        <item>410</item>
+        <item>840</item>
+        <item>276</item>
+        <item>250</item>
+        <item>528</item>
+        <item>156</item>
+        <item>392</item>
+        <item>704</item>
+    </string-array>
+
+    <string-array name="labtest_name">
+        <item>FATOS Map API</item>
+        <item>Google maps API</item>
+        <item>T map API</item>
+        <item>NAVER 지도 API</item>
+        <item>개발 서버 모드</item>
+        <item>로컬 탐색 모드</item>
+    </string-array>
+
+    <string-array name="labtest_explain">
+        <item>FATOS Map 서버에서 데이터를 받아옵니다. 오픈스트리트맵 기반 배경맵 뿐만 아니라 Google과 NAVER 데이터를 활용한 전세계 POI 검색 및 FATOS Map만의 대륙간 경로탐색이 가능합니다.</item>
+        <item>Google maps API를 활용한 경로 데이터가 제공됩니다. 한국을 제외한 전세계 어느곳이나 지점간 경로탐색이 가능합니다.</item>
+        <item>T map API 센터에서 데이터를 받아옵니다. SK map 기반 배경맵 뿐만 아니라 T map의 POI 검색과 경로탐색이 가능합니다.</item>
+        <item>NAVER 지도 API를 활용한 경로 데이터가 제공됩니다. 한국내 지점간 경로탐색을 지원하고 있습니다.</item>
+        <item>개발 서버 모드입니다.</item>
+        <item>로컬로 경로 탐색하는 모드입니다.</item>
+    </string-array>
+
+    <string-array name="labtest_codes">
+        <item>1</item>
+        <item>7</item>
+        <item>11</item>
+        <item>5</item>
+        <item>8088</item>
+        <item>8089</item>
+    </string-array>
+
+    <integer-array name="labtest_enable">
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">확인</string>
+    <string name="dialog_cancel">취소</string>
+    <string name="LOADING">불러오는 중입니다...</string>
+
+    <string name="copyright">\n\nCopyright© 2016~2017 FATOS Co., Ltd.\nAll rights reserved.</string>
+    <string name="swipemenulistviewApp_name">ExpandableLayout</string>
+    <string name="string_km">km</string>
+    <string name="string_mi">mile</string>
+
+    <string name="string_speed_km">km/h</string>
+    <string name="string_speed_mi">mi/h</string>
+
+    <string name="dist_voice_km"> 킬로미터 </string>
+    <string name="dist_voice_m"> 미터 </string>
+    <string name="dist_voice_mile"> 마일 </string>
+    <string name="dist_voice_feet"> 피트 </string>
+
+    <string name="dist_voice_km_ja"> キロメートル </string>
+    <string name="dist_voice_m_ja"> メーター </string>
+    <string name="dist_voice_mile_ja"> マイル </string>
+    <string name="dist_voice_feet_ja"> フィート </string>
+
+    <string name="dist_voice_km_ve"> cây số </string>
+    <string name="dist_voice_m_ve"> mét </string>
+    <string name="dist_voice_mile_ve"> dặm </string>
+    <string name="dist_voice_feet_ve"> ft </string>
+
+    <string name="dist_voice_km_zh"> 公里 </string>
+    <string name="dist_voice_m_zh"> 米 </string>
+    <string name="dist_voice_mile_zh"> 英里 </string>
+    <string name="dist_voice_feet_zh"> 脚 </string>
+
+    <string name="force_update"> 업데이트가 필요합니다. Play Store로 이동하시겠습니까? </string>
+
+    <string name="engine_init_failed_localdb"> 실행에 필요한 파일을 찾을 수 없습니다.\n구입처에 문의하세요. </string>
+    <string name="engine_init_failed_title"> Navi Engine Init</string>
+    <string name="engine_init_failed_etc">Navi Engine을 초기화 할 수 없습니다.\n구입처에 문의하세요. </string>
+    <string name="engine_init_failed_expiration_inside">개발테스트용 사용기간이\n만료되었습니다.</string>
+    <string name="engine_init_failed_expiration_commercial">기본 사용기간이 만료되었습니다\n기간 연장을 원할 경우 구입처로 문의해주세요. </string>
+
+    <string name="fmp_txt_hybrid_searchdb_error">Local DB가 없습니다.\n해당 단말기에 FATOS Local DB update가 필요합니다.</string>
+    <string name="fmp_txt_hybridmode_searchdb_error">통신 가능한 상태가 아니라 Local Mode로\n전환 되었으나 DB File이 없습니다.</string>
+
+    <string name="fmp_txt_route_msg">을(를) 목적지로 경로 탐색 중입니다...</string>
+    <string name="fmp_txt_route_msg_errorcode">출발지와 목적지가 너무 가깝습니다</string>
+    <string name="fmp_txt_route_edit_msg_errorcode">같은 지점이 연속되거나\n출발지와 목적지가 너무 가깝습니다</string>
+
+    <string name="fmp_txt_setting_route_option_summary_1">추천1</string>
+    <string name="fmp_txt_setting_route_option_summary_2">추천2</string>
+    <string name="fmp_txt_setting_route_option_summary_3">고속</string>
+    <string name="fmp_txt_setting_route_option_summary_4">일반</string>
+    <string name="fmp_txt_setting_route_option_summary_5">최단</string>
+    <string name="fmp_txt_setting_route_option_summary_6">무료</string>
+    <string name="string_startingpoint">출발지</string>
+    <string name="string_goalpoint">도착지</string>
+    <string name="string_waypoints">경유지</string>
+
+    <string-array name="menu_cate_part1">
+        <item>기타</item>
+        <item>주유소</item>
+        <item>가스충전소</item>
+        <item>EV충전소</item>
+        <item>음식점</item>
+        <item>마트/편의점</item>
+        <item>주차장</item>
+        <item>정비소</item>
+        <item>은행/ATM</item>
+        <item>병원/약국</item>
+        <item>교통</item>
+        <item>쇼핑</item>
+        <item>숙박</item>
+        <item>관광/레저/문화</item>
+    </string-array>
+
+    <string-array name="menu_cate_part1_sub">
+        <item>기타</item>
+        <item>EV충전소</item>
+        <item>가스충전소</item>
+        <item>EV충전소</item>
+        <item>음식점</item>
+        <item>마트/편의점</item>
+        <item>주차장</item>
+        <item>정비소</item>
+        <item>은행/ATM</item>
+        <item>병원/약국</item>
+        <item>교통</item>
+        <item>쇼핑</item>
+        <item>숙박</item>
+        <item>관광/레저/문화</item>
+    </string-array>
+
+    <string name="tmsdg_trpt_title">운송계획 알림</string>
+
+    <string name="km">km</string>
+    <string name="m">m</string>
+
+    <string name="string_splsh_top_text1">실제 도로 상황과 다를 수 있으니</string>
+    <string name="string_splsh_top_text2">교통법규를 준수하여 안전운전하시기 바랍니다.</string>
+    <string name="string_splsh_bottom_text1">주행 중 데이터의 오류등으로 발생하는</string>
+    <string name="string_splsh_bottom_text2">모든 사고에 대한 민형사상 일체의 책임이 없습니다.</string>
+
+    <string-array name="lgd_search_name">
+        <item>P7 지상</item>
+        <item>P8 지상</item>
+        <item>P9 지상</item>
+        <item>모듈 지상</item>
+        <item>UT1</item>
+        <item>UT2</item>
+        <item>A1</item>
+        <item>A2</item>
+        <item>RND</item>
+        <item>Green동</item>
+        <item>Guest House</item>
+        <item>P7 지하</item>
+        <item>P8 지하2층</item>
+        <item>P9 지하</item>
+        <item>모듈 지하</item>
+        <item>제품창고</item>
+        <item>P8 지하4층</item>
+    </string-array>
+
+    <string-array name="lgd_search_floor">
+        <item>1F</item>
+        <item>1F</item>
+        <item>1F</item>
+        <item>1F</item>
+        <item>1F</item>
+        <item>1F</item>
+        <item>1F</item>
+        <item>1F</item>
+        <item>1F</item>
+        <item>1F</item>
+        <item>1F</item>
+        <item>B2F</item>
+        <item>B2F</item>
+        <item>B2F</item>
+        <item>B2F</item>
+        <item>B2F</item>
+        <item>B4F</item>
+    </string-array>
+
+    <string-array name="lgd_search_lon">
+        <item>126.772659</item>
+        <item>126.774826</item>
+        <item>126.764986</item>
+        <item>126.767723</item>
+        <item>126.769133</item>
+        <item>126.766255</item>
+        <item>126.770909</item>
+        <item>126.766273</item>
+        <item>126.770119</item>
+        <item>126.759112</item>
+        <item>126.768382</item>
+        <item>126.770232</item>
+        <item>126.774292</item>
+        <item>126.76641</item>
+        <item>126.76733</item>
+        <item>126.763773</item>
+        <item>126.774528</item>
+    </string-array>
+
+    <string-array name="lgd_search_lat">
+        <item>37.812084</item>
+        <item>37.810742</item>
+        <item>37.811786</item>
+        <item>37.809287</item>
+        <item>37.810863</item>
+        <item>37.81115</item>
+        <item>37.810411</item>
+        <item>37.809955</item>
+        <item>37.809172</item>
+        <item>37.815023</item>
+        <item>37.806486</item>
+        <item>37.811183</item>
+        <item>37.811225</item>
+        <item>37.810837</item>
+        <item>37.811089</item>
+        <item>37.812593</item>
+        <item>37.808559</item>
+    </string-array>
+
+    <string-array name="lgd_gate_name">
+        <item>Gate A</item>
+        <item>Gate B</item>
+        <item>Gate C</item>
+        <item>Gate D</item>
+    </string-array>
+
+    <string-array name="lgd_gate_floor">
+        <item>1F</item>
+        <item>1F</item>
+        <item>1F</item>
+        <item>1F</item>
+    </string-array>
+
+    <string-array name="lgd_gate_lon">
+        <item>126.765561</item>
+        <item>126.76841</item>
+        <item>126.774506</item>
+        <item>126.768118</item>
+    </string-array>
+
+    <string-array name="lgd_gate_lat">
+        <item>37.807109</item>
+        <item>37.806259</item>
+        <item>37.808039</item>
+        <item>37.812225</item>
+    </string-array>
+
+    <string name="route_error_message_title">알림</string>
+    <string name="route_error_message_content">통신상태가 원활하지 않아 경로탐색이 실패하였습니다.</string>
+</resources>

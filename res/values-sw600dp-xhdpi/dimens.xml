@@ -1,0 +1,119 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <integer name="check_resolution" tools:ignore="MissingDefaultResource">10</integer>
+    <dimen name="check_dimen_value" tools:ignore="MissingDefaultResource">900dp</dimen>
+
+    <dimen name="activity_horizontal_margin">56dp</dimen>
+    <dimen name="activity_vertical_margin">56dp</dimen>
+
+    <dimen name="mainmenu_clocktime_txtsize">40dp</dimen>
+    <dimen name="mainmenu_ampm_txtsize">12dp</dimen>
+    <dimen name="mainmenu_clocktime_paddingleft">28dp</dimen>
+
+    <dimen name="drive_address_textsize">28dp</dimen>
+    <dimen name="drive_1st_turn_textsize" tools:ignore="MissingDefaultResource">33dp</dimen>
+    <dimen name="drive_2st_turn_textsize" tools:ignore="MissingDefaultResource">33dp</dimen>
+    <dimen name="drive_dirinfo_textsize">20dp</dimen>
+
+    <dimen name="landdrive_1st_turn_list_textsize" tools:ignore="MissingDefaultResource">25dp</dimen>
+    <dimen name="landdrive_dir_turn_list_textsize" tools:ignore="MissingDefaultResource">20dp</dimen>
+
+    <dimen name="drive_andolayout_height">75dp</dimen>
+    <dimen name="drive_andolayout_tbt_height">75dp</dimen>
+    <dimen name="drive_andolayout_speed_height">90dp</dimen>
+
+    <dimen name="drive_bottom_dir_height" tools:ignore="MissingDefaultResource">28dp</dimen>
+    <dimen name="drive_button_width_height" tools:ignore="MissingDefaultResource">60dp</dimen>
+
+    <dimen name="drive_newandolayout_width" tools:ignore="MissingDefaultResource">360dp</dimen>
+    <dimen name="drive_newandolayout_height" tools:ignore="MissingDefaultResource">100dp</dimen>
+    <dimen name="drive_newandolayout_tbt_width_height" tools:ignore="MissingDefaultResource">55dp</dimen>
+    <dimen name="drive_newandolayout_tbt_distance_width" tools:ignore="MissingDefaultResource">95dp</dimen>
+    <dimen name="drive_newandolayout_tbt_distance_height" tools:ignore="MissingDefaultResource">35dp</dimen>
+    <dimen name="drive_newandolayout_progress_margin" tools:ignore="MissingDefaultResource">45dp</dimen>
+
+    <dimen name="drive_newandolayout_remaintime_margin" tools:ignore="MissingDefaultResource">30dp</dimen>
+    <dimen name="drive_newandolayout_remaindist_margin" tools:ignore="MissingDefaultResource">100dp</dimen>
+
+    <dimen name="drive_newandolayout_nexttbt_width" tools:ignore="MissingDefaultResource">130dp</dimen>
+    <dimen name="drive_newandolayout_nexttbt_height" tools:ignore="MissingDefaultResource">50dp</dimen>
+
+    <dimen name="drive_newandolayout_nexttbt_image_width" tools:ignore="MissingDefaultResource">40dp</dimen>
+    <dimen name="drive_newandolayout_nexttbt_image_height" tools:ignore="MissingDefaultResource">40dp</dimen>
+
+    <dimen name="drive_newandolayout_nexttbt_distance_width_height" tools:ignore="MissingDefaultResource">90dp</dimen>
+    <dimen name="drive_newandolayout_nexttbt_fontsize" tools:ignore="MissingDefaultResource">25dp</dimen>
+
+    <integer name="drive_info_progress" tools:ignore="MissingDefaultResource">90</integer>
+
+    <dimen name="drive_speed_fontsize" tools:ignore="MissingDefaultResource">48dp</dimen>
+
+    <!--Landcape mode -->
+    <!--<dimen name="drive_newandolayout_tbtlist_width">330dp</dimen>-->
+    <!--<dimen name="drive_newandolayout_tbtlist_height">115dp</dimen>-->
+    <dimen name="drive_newandolayout_tbtlist_width" tools:ignore="MissingDefaultResource">143dp</dimen>
+    <dimen name="drive_newandolayout_tbtlist_height" tools:ignore="MissingDefaultResource">50dp</dimen>
+    <dimen name="drive_newandolayout_tbtlist_progress_margin" tools:ignore="MissingDefaultResource">5dp</dimen>
+    <dimen name="drive_newandolayout_tbtlist_remaintime_margin" tools:ignore="MissingDefaultResource">5dp</dimen>
+    <dimen name="drive_newandolayout_tbtlist_remaindist_margin" tools:ignore="MissingDefaultResource">68dp</dimen>
+    <dimen name="drive_newandolayout_tbtlist_dir_textsize" tools:ignore="MissingDefaultResource">25dp</dimen>
+    <dimen name="drive_newandolayout_tbtlist_dir_longtextsize" tools:ignore="MissingDefaultResource">18dp</dimen>
+
+    <!--<dimen name="drive_newandolayout_sub_tbtlist_width">330dp</dimen>-->
+    <!--<dimen name="drive_newandolayout_sub_tbtlist_height">161dp</dimen>-->
+    <dimen name="drive_newandolayout_sub_tbtlist_width" tools:ignore="MissingDefaultResource">238dp</dimen>
+    <dimen name="drive_newandolayout_sub_tbtlist_height" tools:ignore="MissingDefaultResource">217dp</dimen>
+    <dimen name="drive_newandolayout_sub_tbtlistone_height" tools:ignore="MissingDefaultResource">56dp</dimen>
+    <dimen name="drive_newandolayout_sub_tbtlist_remaintime_fontsize" tools:ignore="MissingDefaultResource">20dp</dimen>
+
+
+    <dimen name="drive_poiindo_submap_width_height" tools:ignore="MissingDefaultResource">175dp</dimen>
+    <dimen name="drive_tripinfo_submap_width_height" tools:ignore="MissingDefaultResource">225dp</dimen>
+    <dimen name="drive_land_quicksearch_width" tools:ignore="MissingDefaultResource">280dp</dimen>
+    <dimen name="drive_land_tripinfo_width" tools:ignore="MissingDefaultResource">280dp</dimen>
+    <dimen name="drive_layout_dirtext_width" tools:ignore="MissingDefaultResource">290dp</dimen>
+
+    <integer name="sub_map_center" tools:ignore="MissingDefaultResource">50</integer>
+    <dimen name="recent_favorite_popup_font" tools:ignore="MissingDefaultResource">33dp</dimen>
+    <dimen name="recent_favorite_popup_font_allview" tools:ignore="MissingDefaultResource">30dp</dimen>
+
+    <dimen name="route_summary_startrg_text" tools:ignore="MissingDefaultResource">16dp</dimen>
+
+    <dimen name="main_menu_list_height" tools:ignore="MissingDefaultResource">56dp</dimen>
+    <dimen name="main_setting_carinfo_height" tools:ignore="MissingDefaultResource">100dp</dimen>
+
+
+    <dimen name="drive_ando_textsize_1" tools:ignore="MissingDefaultResource">43dp</dimen>
+    <dimen name="drive_ando_textsize_2" tools:ignore="MissingDefaultResource">39dp</dimen>
+    <dimen name="drive_ando_dist_textsize" tools:ignore="MissingDefaultResource">34dp</dimen>
+    <dimen name="drive_ando_avgspeed_textsize" tools:ignore="MissingDefaultResource">31dp</dimen>
+    <dimen name="drive_ando_avgspeed_title" tools:ignore="MissingDefaultResource">20dp</dimen>
+    <dimen name="drive_ando_remaintime_textsize" tools:ignore="MissingDefaultResource">27dp</dimen>
+
+    <dimen name="drive_ando_all_width" tools:ignore="MissingDefaultResource">131dp</dimen>
+    <dimen name="drive_ando_default_width_height" tools:ignore="MissingDefaultResource">77dp</dimen>
+    <dimen name="drive_ando_gugan_width_height" tools:ignore="MissingDefaultResource">54dp</dimen>
+    <dimen name="drive_ando_dist_width" tools:ignore="MissingDefaultResource">63dp</dimen>
+    <dimen name="drive_ando_dist_height" tools:ignore="MissingDefaultResource">27dp</dimen>
+
+    <dimen name="land_routesummary_btn_textsize1" tools:ignore="MissingDefaultResource">14dp</dimen>
+    <dimen name="land_routesummary_btn_textsize2" tools:ignore="MissingDefaultResource">15dp</dimen>
+
+    <dimen name="trip_top_textsize" tools:ignore="MissingDefaultResource">18dp</dimen>
+    <dimen name="trip_middle_title_textsize" tools:ignore="MissingDefaultResource">14dp</dimen>
+    <dimen name="trip_middle_contents_textsize" tools:ignore="MissingDefaultResource">13dp</dimen>
+
+    <dimen name="popup_title_textsize" tools:ignore="MissingDefaultResource">22dp</dimen>
+    <dimen name="popup_btn_textsize" tools:ignore="MissingDefaultResource">22dp</dimen>
+    <dimen name="popup_contents_textsize" tools:ignore="MissingDefaultResource">25dp</dimen>
+
+    <dimen name="popup_btn_marginleft" tools:ignore="MissingDefaultResource">18dp</dimen>
+    <dimen name="popup_btn_marginright" tools:ignore="MissingDefaultResource">18dp</dimen>
+    <dimen name="popup_btn_layout_height" tools:ignore="MissingDefaultResource">111dp</dimen>
+    <dimen name="popup_btn_layout_width" tools:ignore="MissingDefaultResource">329dp</dimen>
+
+    <dimen name="drive_around_via_textsize" tools:ignore="MissingDefaultResource">17dp</dimen>
+
+    <dimen name="drive_sdk_mapmode_width_height">32dp</dimen>
+    <dimen name="drive_sdk_button_width_height">41dp</dimen>
+</resources>

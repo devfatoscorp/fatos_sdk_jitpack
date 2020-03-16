@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="activity_horizontal_margin">56dp</dimen>
+    <dimen name="activity_vertical_margin">56dp</dimen>
+
+    <dimen name="mainmenu_clocktime_txtsize">43sp</dimen>
+    <dimen name="mainmenu_ampm_txtsize">13sp</dimen>
+    <dimen name="mainmenu_clocktime_paddingleft">28dp</dimen>
+
+    <dimen name="drive_address_textsize">20sp</dimen>
+    <dimen name="drive_1st_turn_textsize" tools:ignore="MissingDefaultResource">27sp</dimen>
+    <dimen name="drive_dirinfo_textsize">18dp</dimen>
+
+
+    <dimen name="drive_andolayout_height">75dp</dimen>
+    <dimen name="drive_andolayout_tbt_height">75dp</dimen>
+    <dimen name="drive_andolayout_speed_height">90dp</dimen>
+
+
+
+
+
+
+
+
+
+    <!--Landcape mode -->
+    <!--<dimen name="drive_newandolayout_tbtlist_width">330dp</dimen>-->
+    <!--<dimen name="drive_newandolayout_tbtlist_height">115dp</dimen>-->
+
+    <!--<dimen name="drive_newandolayout_sub_tbtlist_width">330dp</dimen>-->
+    <!--<dimen name="drive_newandolayout_sub_tbtlist_height">161dp</dimen>-->
+
+
+
+
+
+
+
+
+
+
+
+
+    <dimen name="popup_contents_textsize2">13sp</dimen>
+    <dimen name="popup_btn_textsize2">16sp</dimen>
+
+    <dimen name="popup_btn_marginright" tools:ignore="MissingDefaultResource">22dp</dimen>
+
+</resources>
