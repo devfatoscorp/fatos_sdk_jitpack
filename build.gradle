@@ -7,7 +7,10 @@ buildscript{
 
     dependencies{
         classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
+        classpath 'com.github.dcendents:android-maven-plugin:1.2'
+        classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.10.1'
     }
 }
 
@@ -62,14 +65,32 @@ dependencies {
     }
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation name: 'fatos-android-sdk', ext: 'aar'
+    api 'androidx.annotation:annotation:1.1.0'
+    api 'androidx.legacy:legacy-support-v4:1.0.0'
     api 'com.android.support:support-annotations:28.0.0'
     api 'com.android.support:support-v4:28.0.0'
+    api 'com.google.code.gson:gson:2.8.6'
     implementation 'androidx.appcompat:appcompat:1.1.0'
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13'
+    api 'com.google.android.gms:play-services-maps:17.0.0'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-//    implementation files('libs/fatos_sdk.jar')
+    api 'androidx.leanback:leanback:1.0.0'
+    api 'com.nineoldandroids:library:2.4.0'
+    api 'com.daimajia.easing:library:1.0.1@aar'
+    api 'com.daimajia.androidanimations:library:1.1.3@aar'
+    api 'com.github.jorgecastilloprz:fillableloaders:1.02@aar'
+    api 'com.google.protobuf:protobuf-java:3.4.0'
+    api 'com.google.android.gms:play-services-location:17.0.0'
+    api 'com.pnikosis:materialish-progress:1.0'
+    api 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation group: 'org.apache.httpcomponents' , name: 'httpclient-android' , version: '4.3.5.1'
+    implementation('org.apache.httpcomponents:httpmime:4.5.6') {
+        exclude module: "httpclient"
+    }
+    //    implementation files('libs/fatos_sdk.jar')
+    implementation name: 'fatos-android-sdk', ext: 'aar'
 }
 
 apply plugin: 'com.github.dcendents.android-maven'
