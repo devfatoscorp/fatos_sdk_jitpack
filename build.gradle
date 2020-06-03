@@ -14,8 +14,8 @@ buildscript{
 apply plugin: 'com.android.library'
 
 android {
+    packageBuildConfig = false
     compileSdkVersion 28
-
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 26
@@ -60,6 +60,8 @@ dependencies {
 
     implementation files('libs/fatos_sdk.jar')
 }
-
+afterEvaluate {
+    generateReleaseBuildConfig.enabled = false
+}
 apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.devfatoscorp'
