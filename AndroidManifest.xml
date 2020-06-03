@@ -3,11 +3,8 @@
           package="biz.fatos.auto.fatos_sdk_jitpack">
 
     <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/string_app"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        tools:replace="android:theme"/>
+        android:largeHeap="true"
+        android:launchMode="singleTask"
+        android:configChanges="keyboardHidden|orientation|screenSize|locale"
+        tools:replace="android:largeHeap, android:configChanges"/>
 </manifest>
