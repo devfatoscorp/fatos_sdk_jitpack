@@ -1,4 +1,4 @@
-package biz.fatossdk.anavi.fatos_sdk_jitpack;
+package biz.fatossdk.anavi;
 
 import org.junit.Test;
 
