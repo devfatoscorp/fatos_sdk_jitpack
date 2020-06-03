@@ -1,4 +1,4 @@
-package biz.fatos.auto.fatos_sdk_jitpack;
+package biz.fatossdk.anavi.fatos_sdk_jitpack;
 
 import android.content.Context;
 
