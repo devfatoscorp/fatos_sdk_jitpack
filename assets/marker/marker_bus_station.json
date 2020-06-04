@@ -1,0 +1,111 @@
+{"frames": [
+
+{
+	"filename": "marker_bus.png",
+	"frame": {"x":0,"y":0,"w":166,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":180},
+	"sourceSize": {"w":166,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "marker_goal.png",
+	"frame": {"x":166,"y":0,"w":166,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":180},
+	"sourceSize": {"w":166,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "marker_poi_b.png",
+	"frame": {"x":332,"y":0,"w":166,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":180},
+	"sourceSize": {"w":166,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "marker_start.png",
+	"frame": {"x":0,"y":180,"w":166,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":180},
+	"sourceSize": {"w":166,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "marker_station.png",
+	"frame": {"x":166,"y":180,"w":166,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":180},
+	"sourceSize": {"w":166,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "marker_station_nonstop.png",
+	"frame": {"x":332,"y":180,"w":166,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":180},
+	"sourceSize": {"w":166,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "marker_station_sel.png",
+	"frame": {"x":0,"y":360,"w":166,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":180},
+	"sourceSize": {"w":166,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "marker_taxi.png",
+	"frame": {"x":166,"y":360,"w":166,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":180},
+	"sourceSize": {"w":166,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "marker_taxi_station.png",
+	"frame": {"x":332,"y":360,"w":166,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":180},
+	"sourceSize": {"w":166,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "marker_user_goal.png",
+	"frame": {"x":0,"y":540,"w":166,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":180},
+	"sourceSize": {"w":166,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "marker_user_start.png",
+	"frame": {"x":166,"y":540,"w":166,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":180},
+	"sourceSize": {"w":166,"h":180},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "marker_bus_station.png",
+	"format": "RGBA8888",
+	"size": {"w":498,"h":720},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:450fbd6596641c234b4007c5d687b016:a45d744f7b94a1156c7db12feb6e0b50:7230097228b41e3fd04d8d6f9220febd$"
+}
+}
