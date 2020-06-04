@@ -800,6 +800,10 @@
             android:layout_marginBottom="43dp"
             android:background="#c8ffffff"
             android:orientation="horizontal"
+            android:paddingLeft="7dp"
+            android:paddingTop="2dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="2dp"
             android:visibility="gone">
 
             <biz.fatossdk.exlib.fatoslayout.AMapSCLinearLayout
@@ -817,7 +821,7 @@
                     android:layout_alignRight="@id/drive_bottom_layout"
                     android:gravity="center_vertical|right"
                     android:linksClickable="true"
-                    android:text="©"
+                    android:text="© "
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="@color/black"
                     android:textSize="8dp" />
@@ -841,7 +845,7 @@
                 android:layout_alignRight="@id/drive_bottom_layout"
                 android:gravity="center_vertical|right"
                 android:linksClickable="true"
-                android:text="©"
+                android:text="© "
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/black"
                 android:textSize="8dp" />

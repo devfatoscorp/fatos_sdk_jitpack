@@ -32,7 +32,7 @@
     <string name="INVALIED_NULL"> Certain condition will not be met. </string>
     <string name="INVALIED_STARTPOS_NOT_SELECTED"> Please set the start point </string>
     <string name="INVALIED_GOALPOS_NOT_SELECTED"> Please set the goal point </string>
-    <string name="TTS_IC"> 나들목 </string>
+    <string name="TTS_IC"> Outing </string>
     <string name="TTS_LASTWORD1"> </string>
     <string name="TTS_LASTWORD2"> </string>
     <string name="TTS_VIA">  </string>
@@ -41,6 +41,7 @@
     <string name="string_comfirm">Yes</string>
     <string name="string_yes">Yes</string>
     <string name="string_no">No</string>
+    <string name="string_yes_all_right">Yes, All right</string>
 
     <string name="string_menu">Menu</string>
     <string name="string_getdirections">Get Directions</string>
@@ -130,6 +131,7 @@
     <string name="string_lpg">LPG</string>
     <string name="string_electricity">Electricity</string>
 
+    <string name="string_trucktype">Truck type</string>
     <string name="string_vehicletype">Vehicle type</string>
     <string name="string_gastype">Gas type</string>
 
@@ -150,14 +152,14 @@
     <string name="string_option_optimal">Optimal</string>
 
     <string name="string_auth">certification</string>
-    <string name="string_authorization_noti_title">단말 인증 안내</string>
-    <string name="string_authorization_noti_text">단말인증에 실패되었습니다.\n단말인증을 재시도 하시거나.\n문제가 지속되는 경우 아래\n문의처로 문의하시기 바랍니다.</string>
-    <string name="string_authorization_noti_yes">계속사용</string>
-    <string name="string_authorization_noti_no">재시도</string>
-    <string name="string_authorization_noti2_title">미인증 단말이용 안내</string>
-    <string name="string_authorization_noti2_text">미인증된 단말 이용시 위험물 운송기능을\n사용하실 수 없으며, 경로안내 기능만\n제공됩니다.</string>
-    <string name="string_authorization_noti2_yes">확인</string>
-    <string name="string_authorization_noti3_text">위험물앱이 응답하지 않습니다.\n위험물앱이 실행중인지 확인해 주세요.</string>
+    <string name="string_authorization_noti_title">Terminal Authentication Guide</string>
+    <string name="string_authorization_noti_text">Terminal authentication failed.\nPlease retry your device authentication\nor contact the\nollowing address if the problem persists.</string>
+    <string name="string_authorization_noti_yes">Continue to use</string>
+    <string name="string_authorization_noti_no">retry</string>
+    <string name="string_authorization_noti2_title">Uncertified Terminal Usage</string>
+    <string name="string_authorization_noti2_text">If you are using an unauthorized terminal,\nyou can not use the dangerous goods transport function,\nonly the route guidance function is provided.</string>
+    <string name="string_authorization_noti2_yes">Confirm</string>
+    <string name="string_authorization_noti3_text">Dangerous goods app is not responding.\nPlease check if dangerous goods app is running.</string>
 
     <string name="string_routerecovery">Route recovery</string>
     <string name="string_routebefore">Would you like to get directions \nto the route just before?</string>
@@ -227,7 +229,7 @@
     <string name="string_control_content_01">o you want to change to operational status?</string>
     <string name="string_control_content_02">Do you want to cancel the current waypoint?</string>
     <string name="string_control_content_03">Are you sure you want to cancel the current operation plan?</string>
-    <string name="string_control_content_04">현재 운행계획을 종료하시겠습니까?</string>
+    <string name="string_control_content_04">Do you want to exit the current plan?</string>
     <string name="string_control_yes">Change</string>
     <string name="string_control_no">No</string>
 
@@ -267,6 +269,7 @@
     <string name="force_exitapp">Exit App</string>
     <string name="string_avgspeed">AvgSpeed</string>
     <string name="string_startupdate">StartUpdate</string>
+    <string name="string_cancelupdate">Updatelater</string>
 
     <string name="sdi_ahead"></string>
     <string name="sdi_speed">speed </string>
@@ -481,12 +484,13 @@
     <string name="fmp_txt_route_msg_errorcode">Start Position and destination are too close.</string>
     <string name="fmp_txt_route_edit_msg_errorcode">The same point is continuous or Start Position and destination are too close.</string>
 
-    <string name="fmp_txt_setting_route_option_summary_1">Opt.1</string>
+    <string name="fmp_txt_setting_route_option_summary_1">Fastest</string>
     <string name="fmp_txt_setting_route_option_summary_2">Opt.2</string>
     <string name="fmp_txt_setting_route_option_summary_3">Exp.way</string>
     <string name="fmp_txt_setting_route_option_summary_4">General</string>
     <string name="fmp_txt_setting_route_option_summary_5">Shortest</string>
-    <string name="fmp_txt_setting_route_option_summary_6">Free</string>
+    <string name="fmp_txt_setting_route_option_summary_6">Shortest_Free</string>
+    <string name="fmp_txt_setting_route_option_summary_7">Fastest_Free</string>
     <string name="string_startingpoint">Starting Point</string>
     <string name="string_goalpoint">Goal</string>
     <string name="string_waypoints">Waypoints</string>
@@ -645,4 +649,5 @@
 
     <string name="route_error_message_title">Notice</string>
     <string name="route_error_message_content">Path search failed because communication status was not good.</string>
+    <string name="agreement">Agreement to use</string>
 </resources>

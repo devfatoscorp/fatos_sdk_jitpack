@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+	<string-array name="info_site">
+		<item>3246fdsgfdg32523dsgavgfdsadg4356</item>
+		<item>wPmVHHmS0COAfsRBLXZNluRRmcVwJiTm3zriFnpYzDM</item>
+		<item>gz4NGG5XqXQ0vkI4k5ECD0zGr1PrZ8ql5BsX0CFZhTs</item>
+		<item>2342356ff212266aasdfghhddf362eaa</item>
+	</string-array>
+	<string-array name="info_number">
+		<item>38</item>
+		<item>1</item>
+		<item>37</item>
+		<item>23</item>
+	</string-array>
 
 	<string-array name="sdk_key">
 		<item>5e6c68w342353273f364286b8f362d12</item>
@@ -56,6 +68,6 @@
 		<item>12354326sdadfasdfczvxcvfdhgfdhee</item>
 		<item>6e6c686753643a73f364286b8f362eqq</item>
 		<item>3686fdsgfdg32523dsgavgfdsadg8dta</item>
+		<item>wPmVHHmS0COAfsRBLXZNluRRmcVwJiTm3zriFnpYzDM</item>
 	</string-array>
-
 </resources>

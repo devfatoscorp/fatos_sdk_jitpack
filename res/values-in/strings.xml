@@ -41,6 +41,7 @@
     <string name="string_comfirm">Yes</string>
     <string name="string_yes">Yes</string>
     <string name="string_no">No</string>
+    <string name="string_yes_all_right">Yes, All right</string>
 
     <string name="string_menu">Menu</string>
     <string name="string_getdirections">Get Directions</string>
@@ -130,6 +131,7 @@
     <string name="string_lpg">LPG</string>
     <string name="string_electricity">Electricity</string>
 
+    <string name="string_trucktype">Truck type</string>
     <string name="string_vehicletype">Vehicle type</string>
     <string name="string_gastype">Gas type</string>
 
@@ -267,6 +269,7 @@
     <string name="force_exitapp">Exit App</string>
     <string name="string_avgspeed">AvgSpeed</string>
     <string name="string_startupdate">StartUpdate</string>
+    <string name="string_cancelupdate">Updatelater</string>
 
     <string name="sdi_ahead"></string>
     <string name="sdi_speed">speed </string>
@@ -481,12 +484,13 @@
     <string name="fmp_txt_route_msg_errorcode">Start Position and destination are too close.</string>
     <string name="fmp_txt_route_edit_msg_errorcode">The same point is continuous or Start Position and destination are too close.</string>
 
-    <string name="fmp_txt_setting_route_option_summary_1">Opt.1</string>
+    <string name="fmp_txt_setting_route_option_summary_1">Fastest</string>
     <string name="fmp_txt_setting_route_option_summary_2">Opt.2</string>
     <string name="fmp_txt_setting_route_option_summary_3">Exp.way</string>
     <string name="fmp_txt_setting_route_option_summary_4">General</string>
     <string name="fmp_txt_setting_route_option_summary_5">Shortest</string>
-    <string name="fmp_txt_setting_route_option_summary_6">Free</string>
+    <string name="fmp_txt_setting_route_option_summary_6">Shortest_Free</string>
+    <string name="fmp_txt_setting_route_option_summary_7">Fastest_Free</string>
     <string name="string_startingpoint">Starting Point</string>
     <string name="string_goalpoint">Goal</string>
     <string name="string_waypoints">Waypoints</string>
@@ -645,4 +649,5 @@
 
     <string name="route_error_message_title">Notifikasi</string>
     <string name="route_error_message_content">Pencarian jalur gagal karena status komunikasi tidak baik.</string>
+    <string name="agreement">Perjanjian untuk digunakan</string>
 </resources>

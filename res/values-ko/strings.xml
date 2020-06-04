@@ -41,6 +41,7 @@
     <string name="string_comfirm">확인</string>
     <string name="string_yes">예</string>
     <string name="string_no">아니오</string>
+    <string name="string_yes_all_right">예</string>
 
     <string name="string_menu">메뉴</string>
     <string name="string_getdirections">길찾기</string>
@@ -130,6 +131,7 @@
     <string name="string_lpg">LPG</string>
     <string name="string_electricity">전기</string>
 
+    <string name="string_trucktype">트럭 종류</string>
     <string name="string_vehicletype">차종</string>
     <string name="string_gastype">유종</string>
 
@@ -267,6 +269,7 @@
     <string name="force_exitapp">앱 종료</string>
     <string name="string_avgspeed">평균속도</string>
     <string name="string_startupdate">업데이트 시작</string>
+    <string name="string_cancelupdate">나중에 업데이트</string>
 
     <string name="sdi_ahead">약</string>
     <string name="sdi_speed">시속 </string>
@@ -487,6 +490,7 @@
     <string name="fmp_txt_setting_route_option_summary_4">일반</string>
     <string name="fmp_txt_setting_route_option_summary_5">최단</string>
     <string name="fmp_txt_setting_route_option_summary_6">무료</string>
+    <string name="fmp_txt_setting_route_option_summary_7">최단무료</string>
     <string name="string_startingpoint">출발지</string>
     <string name="string_goalpoint">도착지</string>
     <string name="string_waypoints">경유지</string>
@@ -645,4 +649,5 @@
 
     <string name="route_error_message_title">알림</string>
     <string name="route_error_message_content">통신상태가 원활하지 않아 경로탐색이 실패하였습니다.</string>
+    <string name="agreement">사용동의</string>
 </resources>
